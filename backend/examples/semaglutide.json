@@ -1,0 +1,432 @@
+{
+  "id": "8c9866ae-5388-4a53-9e84-401c8b1ea8e1",
+  "status": "completed",
+  "error": null,
+  "createdAt": "2026-10-07T11:03:09.597Z",
+  "startedAt": "2026-10-07T11:03:09.598Z",
+  "finishedAt": "2026-10-07T11:03:16.519Z",
+  "prompt": "semaglutide adverse effects",
+  "cost": 0.06,
+  "budget": 0.25,
+  "events": [
+    {
+      "id": 0,
+      "at": "2026-10-07T11:03:09.599Z",
+      "message": "searching literature: semaglutide adverse effects",
+      "group": "literature",
+      "query": "semaglutide adverse effects"
+    },
+    {
+      "id": 1,
+      "at": "2026-10-07T11:03:09.599Z",
+      "message": "searching trials: semaglutide adverse effects",
+      "group": "trials",
+      "query": "semaglutide adverse effects"
+    },
+    {
+      "id": 2,
+      "at": "2026-10-07T11:03:09.599Z",
+      "message": "searching web: semaglutide adverse effects",
+      "group": "web",
+      "query": "semaglutide adverse effects"
+    },
+    {
+      "id": 3,
+      "at": "2026-10-07T11:03:11.543Z",
+      "message": "found 8 in literature",
+      "group": "literature",
+      "query": "semaglutide adverse effects",
+      "count": 8
+    },
+    {
+      "id": 4,
+      "at": "2026-10-07T11:03:13.347Z",
+      "message": "found 8 in trials",
+      "group": "trials",
+      "query": "semaglutide adverse effects",
+      "count": 8
+    },
+    {
+      "id": 5,
+      "at": "2026-10-07T11:03:16.518Z",
+      "message": "found 8 in web",
+      "group": "web",
+      "query": "semaglutide adverse effects",
+      "count": 8
+    },
+    {
+      "id": 6,
+      "at": "2026-10-07T11:03:16.518Z",
+      "message": "done searching"
+    },
+    {
+      "id": 7,
+      "at": "2026-10-07T11:03:16.518Z",
+      "message": "crafting report from 23 unique sources"
+    }
+  ],
+  "report": "# semaglutide adverse effects\n\n1. [Safety of Semaglutide](https://pubmed.ncbi.nlm.nih.gov/PMC8294388) (2021, valyu/valyu-pubmed)\n2. [Semaglutide: Double-edged Sword with Risks and Benefits](https://pubmed.ncbi.nlm.nih.gov/PMC11790292) (2025, valyu/valyu-pubmed)\n3. [Comparative analysis of semaglutide induced adverse reactions: Insights from FAERS database and social media reviews with a focus on oral vs subcutaneous administration Zhang et al. 10.3389/fphar.2024.1471615](https://pubmed.ncbi.nlm.nih.gov/PMC11534668) (2024, valyu/valyu-pubmed)\n4. [Adverse effects with semaglutide: a protocol for a systematic review with meta-analysis and trial sequential analysis.](https://pubmed.ncbi.nlm.nih.gov/38908837) (2024, valyu/valyu-pubmed)\n5. [Gastrointestinal disorders potentially associated with Semaglutide: an analysis from the Eudravigilance Database.](https://pubmed.ncbi.nlm.nih.gov/36695099) (2023, valyu/valyu-pubmed)\n6. [Effectiveness & safety of semaglutide in weight reduction in obese nondiabetic patients: A systematic review and meta-analysis](https://pubmed.ncbi.nlm.nih.gov/PMC13433015) (2026, valyu/valyu-pubmed)\n7. [Semaglutide - properties, action and chromatographic analysis](https://pubmed.ncbi.nlm.nih.gov/PMC12420565) (2025, valyu/valyu-pubmed)\n8. [A Multicentre, Prospective, Randomized, Open-label, Blinded Endpoint, Pilot Clinical Trial Evaluating Subcutaneous Semaglutide in Patients With Acute Ischaemic Stroke Due to Anterior Circulation Large Vessel Occlusion Treated With Endovascular Thrombectomy](https://clinicaltrials.gov/study/NCT07511543) (2026, valyu/valyu-clinical-trials)\n9. [Effect and Safety of Semaglutide 2.4 mg Once-weekly in Subjects With Overweight or Obesity](https://clinicaltrials.gov/study/NCT03548935) (2018, valyu/valyu-clinical-trials)\n10. [Does the Glucagon-like Peptide-1 Receptor Agonist Semaglutide Prevent Deterioration of Metabolic State in Prediabetic or Diabetic Patients With Schizophrenia Treated With the Antipsychotic Compounds Clozapine or Olanzapine?](https://clinicaltrials.gov/study/NCT04892199) (2021, valyu/valyu-clinical-trials)\n11. [The Cardiovascular Safety and Efficacy of Cagrilintide 2.4 mg s.c. in Combination With Semaglutide 2.4 mg s.c. (CagriSema 2.4 mg/2.4 mg s.c.) Once-weekly in Participants With Established Cardiovascular Disease](https://clinicaltrials.gov/study/NCT05669755) (2023, valyu/valyu-clinical-trials)\n12. [A First Human Dose Study Investigating Safety, Tolerability, and Pharmacokinetics of Oral Single Doses of NNC0113-6856 in Healthy Male Participants](https://clinicaltrials.gov/study/NCT05521256) (2022, valyu/valyu-clinical-trials)\n13. [A Prospective Multicenter International Randomized Controlled Trial Comparing Surgical and Medical Therapies in the Treatment of Advanced Metabolic Dysfunction Associated Steatohepatitis](https://clinicaltrials.gov/study/NCT06374875) (2024, valyu/valyu-clinical-trials)\n14. [Emulation of Effects of Injectable Semaglutide on Cardiovascular Outcomes in Individuals With Type 2 Diabetes: SUSTAIN6 Trial](https://clinicaltrials.gov/study/NCT06659744) (2024, valyu/valyu-clinical-trials)\n15. [Obesity Management for Kidney TRANSPLANTation: a Vanguard Study for an Innovative Randomized Controlled Trial, Embedded in Routine Care (OK-TRANSPLANT 2)](https://clinicaltrials.gov/study/NCT06396416) (2024, valyu/valyu-clinical-trials)\n16. [Semaglutide: Uses, Dosage, Side Effects, Brands - Drugs.com](https://www.drugs.com/semaglutide.html) (2026, web)\n17. [Semaglutide Side Effects: Common vs Serious Symptoms | Rivas Medical Weight Loss](https://www.rivasweightloss.com/blog/semaglutide-side-effects/) (2026, web)\n18. [20 Ozempic and Wegovy Side Effects You Should Know About - GoodRx](https://www.goodrx.com/ozempic/semaglutide-side-effects) (2026, web)\n19. [Semaglutide: Double-edged Sword with Risks and Benefits](https://pmc.ncbi.nlm.nih.gov/articles/PMC11790292/) (2025, web)\n20. [Semaglutide Side Effects: Management Strategies and More - GoodRx](https://www.goodrx.com/ozempic/semaglutide-side-effects-management-strategies) (2026, web)\n21. [Wegovy® Side Effects | Wegovy® (semaglutide)](https://www.wegovy.com/obesity/is-wegovy-right-for-me/safety-side-effects.html) (2026, web)\n22. [The adverse effects associated with semaglutide use in patients at increased risk of cardiovascular events: a systematic review with meta-analysis and Trial Sequential Analysis - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12642075/) (2025, web)\n23. [Semaglutide Injection: MedlinePlus Drug Information](https://medlineplus.gov/druginfo/meds/a618008.html) (2026, web)",
+  "sources": [
+    {
+      "id": "10.3389/fendo.2021.645563",
+      "title": "Safety of Semaglutide",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC8294388",
+      "authors": [
+        "Mark M. Smits",
+        "Daniël H. Van Raalte"
+      ],
+      "publicationDate": "2021-07-07",
+      "doi": "10.3389/fendo.2021.645563",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Safety of Semaglutide\n\nAuthors: ['Mark M. Smits' 'Daniël H. Van Raalte']\n\nThe glucagon-like peptide-1 receptor agonist (GLP-1RA) semaglutide is the most recently approved agent of this drug class, and the only GLP-1RA currently available as both subcutaneous and oral formulation. While GLP-1RAs effectively improve glycemic control and cause weight loss, potential safety concerns have arisen over the years. For semaglutide, such concerns have been addressed in the extensive phase 3 registration trials including cardiovascular outcome trials for both subcutaneous (SUSTAIN: Semaglutide Unabated Sustainability in Treatment of Type 2 Diabetes) and oral (PIONEER: Peptide InnOvatioN for the Early diabEtes tReatment) semaglutide and are being studied in further trials and registries, including real world data studies. In the current review we discuss the occurrence of adverse events associated with semaglutide focusing on hypoglycemia, gastrointestinal side effects, pancreatic safety (pancreatitis and pancreatic cancer), thyroid cancer, gallbladder events, cardiovascular aspects, acute kidney injury, diabetic retinopathy (DRP) complications and injection-site and allergic reactions and where available, we highlight potential underlying mechanisms. Furthermore, we discuss whether effects are specific for semaglutide or a class effect. We conclude that semaglutide induces mostly mild-to-moderate and transient gastrointestinal disturbances and increases the risk of biliary disease (cholelithiasis). No unexpected safety issues have arisen to date, and the established safety profile for semaglutide is similar to that of other GLP-1RAs where definitive conclusions for pancreatic and thyroid cancer cannot be drawn at this point due to low incidence of these conditions. Due to its potent glucose-lowering effect, patients at risk for deterioration of existing DRP should be carefully monitored if treated with semaglutide, particularly if also treated with insulin. Given the beneficial metabolic and cardiovascular actions of semaglutide, and the low risk for severe adverse events, semaglutide has an overall favorable risk/benefit profile for patient with type 2 diabetes.",
+      "excerpts": [
+        "## Adverse Effects of Semaglutide\nSemantically, the on-target effects of GLP-1RAs are those effects leading to a reduction in glucose levels. Any other effect can be considered as a pleiotropic, off-target effect, or in the case of unwanted actions, adverse effects ([f1]). Many of the (adverse) class effects are shared among the different GLP-1RA, however, differences do occur. For semaglutide, one could expect a different side-effect profile for the oral *versus* the subcutaneous formulation. Apart from the obvious-tablets will not induce injection-site reactions-it could be suggested that higher portal levels induce more gastrointestinal disturbances. Moreover, with the maximum oral dosage plasma levels are lower compared with the maximal subcutaneous dose (oral 20 mg yields plasma levels of ~25 nM, subcutaneous 1 mg yields plasma levels of ~45 nM (33, 34)). Worth noting is that no data comparing the pharmacokinetic profile of both formulations against each other are available. In the following sections, the adverse reactions and safety issues of semaglutide, both oral and subcutaneous, will be discussed. We will discuss the risk of hypoglycemia, gastrointestinal side effects including previous reports on increased risk for pancreatitis and pancreas cancer, thyroid cancer, gallbladder stones, effects on the cardiovascular system, acute kidney injury, diabetic retinopathy risks and allergies/injection-site reactions ([T2]).\n\n### Hypoglycemia\n..."
+      ],
+      "relevance": 0.9671503082011984,
+      "citationCount": 270,
+      "n": 1
+    },
+    {
+      "id": "10.26502/aimr.0189",
+      "title": "Semaglutide: Double-edged Sword with Risks and Benefits",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC11790292",
+      "authors": [
+        "Lekha Pillarisetti",
+        "Devendra K. Agrawal"
+      ],
+      "publicationDate": "2025-01-10",
+      "doi": "10.26502/aimr.0189",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Semaglutide: Double-edged Sword with Risks and Benefits\n\nAuthors: ['Lekha Pillarisetti' 'Devendra K. Agrawal']\n\nType 2 Diabetes Mellitus therapy has evolved over the years to now include a new class of therapeutics, semaglutide. This article reviews the mechanism of action and formulation of semaglutide therapy, potential benefits, contraindications, adverse effects, and drug interactions. Oral and subcutaneous semaglutide therapies have shown effectiveness in improving glycemic control, weight loss, and reducing cardiovascular risks associated with diabetes mellitus. Semaglutide has also shown potential in being used as a therapeutic strategy in Alzheimer’s disease due to its anti-neuroinflammatory effects and being used to treat polycystic ovary syndrome. However, semaglutide therapy is also associated with concerning adverse effects like acute pancreatitis, anesthetic risks like pulmonary aspiration or residual gastric content, acute kidney injury, acute gallbladder injury, nonarteritic anterior ischemic optic neuropathy and diabetic retinopathy. Contraindications of semaglutide include history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2, and pregnancy. Drug interactions to consider with semaglutide therapy include those also used in diabetes treatment, like metformin, as well as anti-psychotics, due to anti-psychotics associated weight gain. The findings of this article emphasize the need for a cross-disciplinary approach to understand the molecular mechanisms and clinical implications of semaglutide on patients with complex medical histories and treatment regimens. The potential anesthetic risks of semaglutide therapy warrant careful consideratiion with ethical concerns. Further studies can assess if there is a need to modify pre-operative guidelines to account for patient using semaglutide and how delayed gastric emptying and constitpation will affect surgical outcomes and complications. While semaglutide therapy for diabetes mellitus has been established, there is a need for extensive research on repurposing semaglutide in neurodegenerative disease treatment.",
+      "excerpts": [
+        "1)##### Gastrointestinal Effects\nA study examined adverse effects (AE) associated with semaglutide therapy using a FDA adverse event reporting system. Shu et al. 2022 found severe gastrointestinal adverse events (AEs) related to semaglutide treatment were reported in 1,778 GI cases and 3,601 overall cases, resulting in 40 (2.25%) and 102 (2.83%) deaths, respectively [51]. The most common severe outcomes included hospitalizations, with 1,103 (62.04%) from GI AEs and 2,311 (64.18%) from overall AEs. Of the GI reports, 40.25% came from healthcare professionals (n = 2,183), while 59.75% were from consumers (n = 3,240) [51].\n\n2)##### Nonarteritic Anterior Ischemic Optic Neuropathy (NAION)\nA retrospective matched cohort study assessed the association between semaglutide and nonarteritic anterior ischemic optic neuropathy (NAION), which is the leading cause of blindness among adults, among 16,827 patients from December 2017 to November 2023. Among patients with T2DM, there was 8.9% incidence of NAION events in the semaglutide cohort and 1.8% in the non-GLP-1R agonist cohort. The hazard ratio (HR) for NAION was 4.28 for those prescribed semaglutide. In the overweight/obese cohort, there was a 6.7% incidence of NAION events in the semaglutide group and 0.8% % in the non-GLP-1R agonist cohort. The HR for NAION in this group was 7.64 [52].\nThese findings suggest an association between semaglutide and increased risk of NAION...."
+      ],
+      "relevance": 0.9173484237934116,
+      "citationCount": 25,
+      "n": 2
+    },
+    {
+      "id": "10.3389/fphar.2024.1471615",
+      "title": "Comparative analysis of semaglutide induced adverse reactions: Insights from FAERS database and social media reviews with a focus on oral vs subcutaneous administration Zhang et al. 10.3389/fphar.2024.1471615",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC11534668",
+      "authors": [
+        "Jing Zhang",
+        "Xiaofen Wang",
+        "Yiting Zhou"
+      ],
+      "publicationDate": "2024-10-22",
+      "doi": "10.3389/fphar.2024.1471615",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Comparative analysis of semaglutide induced adverse reactions: Insights from FAERS database and social media reviews with a focus on oral vs subcutaneous administration Zhang et al. 10.3389/fphar.2024.1471615\n\nAuthors: ['Jing Zhang' 'Xiaofen Wang' 'Yiting Zhou']\n\n## Background\nCompared to alternative weight-loss strategies and medications, semaglutide stands out for its convenience and efficacy, resulting in a significant increase in prescriptions and raising public safety concerns. Furthermore, the safety profiles of its oral and subcutaneous formulations require further examination.\n\n## Objective\nOur goal is to investigate the potential safety risks associated with semaglutide by analyzing data from the FAERS database and social media. Additionally, we aim to compare the adverse drug reaction (ADR) signals between the oral and subcutaneous administration routes of semaglutide.\n\n## Methods\nWe collected semaglutide-related reports from the FAERS database spanning Q1 2018 to Q2 2023, and patient reviews on WebMD and AskaPatient up to 20 July 2023. Following data extraction and cleansing, we conducted descriptive analyses of demographic characteristics. Subsequently, we calculated adverse drug reaction (ADR) signals using the reporting odds ratio (ROR).\n\n## Results\nWe identified 19,289 and 422 semaglutide-related adverse drug events (ADEs) reported in the FAERS database and online patient reviews, respectively. Gastrointestinal disorders emerged as the most commonly reported System Organ Class (SOC) in both datasets. Predominant Preferred Terms (PTs) included nausea, vomiting, and diarrhea. Serious outcomes constituted 3.07% and 2.25% of all cases for oral and subcutaneous semaglutide, respectively. At the SOC level, gastrointestinal disorders accounted for 30.19% of total ADEs in oral semaglutide, slightly surpassing the 27.76% in subcutaneous semaglutide. The median onset for gastrointestinal PTs was 4 days in both oral (Q1: 1, Q3: 32) and subcutaneous (Q1: 1, Q3: 35) formulations. Noteworthy, new serious adverse event (AE) signals were identified, including hemorrhagic diarrhea (ROR: 3.69), hepatic pain (ROR: 4.20), abnormal hormone levels (ROR: 6.51), and pancreatic failure (ROR: 36.34) in subcutaneous semaglutide, and Dupuytren’s contracture (ROR: 46.85) in oral semaglutide.\n\n## Conclusion\nOur study delineates the safety profile of semaglutide using data from the FAERS database and social media. And identified novel ADR signals specific to oral and subcutaneous forms of semaglutide.",
+      "excerpts": [
+        "## 1 Introduction\nSemaglutide, which belongs to the family of incretin glucagon-like peptide-1 receptor agonists (GLP-1 RAs), is a peptide approved for the long-term treatment of type 2 diabetes (T2DM) and obesity. As GLP-1 agonists, semaglutide can mimic the effects of GLP-1, such as increasing insulin production, thus decreasing blood glucose levels and slowing gastric emptying, serving as a weight-loss medication. Semaglutide significantly decreased HbA1c levels by 1.55% at a dosage of 1.0 mg ([23]) and improved cardiovascular outcomes in patients with type 2 diabetes ([13]). Semaglutide has demonstrated the highest percentage of weight loss in obese adults without type 2 diabetes, with reductions of approximately 15% of initial weight at 68 weeks ([26]). The most common adverse events (ADE) are gastrointestinal issues, and the risks of pancreatitis, kidney failure, and medullary thyroid carcinoma cannot be ignored ([20]).\nGenerally, after marketing approval, pharmacovigilance analysis could be conducted by utilizing the ADE data from public database such as the FAERS database. Several studies have reported associations between semaglutide and ADR signals related to gastrointestinal, retinal, and tumor adverse events ([19]; [4]; [28]). In various pharmacovigilance studies, semaglutide’s safety profile has been evaluated against other GLP-1 RAs. Semaglutide-associated overall tumor ([28]) and the risk of suicidality or self-injury was similar to the overall GLP-1RA ([2])...",
+        "## 5 Conclusion\nOur study delineates the safety profile of semaglutide using data from the FAERS database and social media. And compared new ADR signals and gastrointestinal performance of two dosage forms of semaglutide. Physicians should be aware of serious adverse effects to monitor patients accordingly.\n"
+      ],
+      "relevance": 0.8907958164165308,
+      "citationCount": 10,
+      "n": 3
+    },
+    {
+      "id": "10.1136/bmjopen-2024-084190",
+      "title": "Adverse effects with semaglutide: a protocol for a systematic review with meta-analysis and trial sequential analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38908837",
+      "authors": [
+        "Christina Dam Bjerregaard Sillassen",
+        "Caroline Barkholt Kamp",
+        "Johanne Juul Petersen",
+        "Pascal Faltermeier",
+        "Faiza Siddiqui",
+        "Johannes Grand",
+        "Helena Dominguez",
+        "Anne Frølich",
+        "Peter Haulund Gæde",
+        "Christian Gluud",
+        "Ole Mathiesen",
+        "Janus Jakobsen"
+      ],
+      "publicationDate": "2024-06-21",
+      "doi": "10.1136/bmjopen-2024-084190",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Adverse effects with semaglutide: a protocol for a systematic review with meta-analysis and trial sequential analysis.\n\nAuthors: Christina Dam Bjerregaard Sillassen, Caroline Barkholt Kamp, Johanne Juul Petersen, Pascal Faltermeier, Faiza Siddiqui, Johannes Grand, Helena Dominguez, Anne Frølich, Peter Haulund Gæde, Christian Gluud, Ole Mathiesen, Janus Jakobsen\n\nINTRODUCTION: Semaglutide is increasingly used for the treatment of type 2 diabetes mellitus, overweight and other conditions. It is well known that semaglutide lowers blood glucose levels and leads to significant weight loss. Still, a systematic review has yet to investigate the adverse effects with semaglutide for all patient groups.\n\nMETHODS AND ANALYSIS: We will conduct a systematic review and search major medical databases (Cochrane Central Register of Controlled Trials, Medline, Embase, Latin American and Caribbean Health Sciences Literature, Science Citation Index Expanded, Conference Proceedings Citation Index-Science) and clinical trial registries from their inception and onwards to identify relevant randomised clinical trials. We expect to conduct the literature search in July 2024. Two review authors will independently extract data and perform risk-of-bias assessments. We will include randomised clinical trials comparing oral or subcutaneous semaglutide versus placebo. Primary outcomes will be all-cause mortality and serious adverse events. Secondary outcomes will be myocardial infarction, stroke, all-cause hospitalisation and non-serious adverse events. Data will be synthesised by meta-analyses and trial sequential analysis; risk of bias will be assessed with Cochrane Risk of Bias tool-version 2, an eight-step procedure will be used to assess if the thresholds for statistical and clinical significance are crossed, and the certainty of the evidence will be assessed by Grading of Recommendations, Assessment, Development and Evaluations.\n\nETHICS AND DISSEMINATION: This protocol does not present any results. Findings of this systematic review will be published in international peer-reviewed scientific journals.\n\nPROSPERO REGISTRATION NUMBER: CRD42024499511.",
+      "excerpts": [
+        "INTRODUCTION: Semaglutide is increasingly used for the treatment of type 2 diabetes mellitus, overweight and other conditions. It is well known that semaglutide lowers blood glucose levels and leads to significant weight loss. Still, a systematic review has yet to investigate the adverse effects with semaglutide for all patient groups.\n\nMETHODS AND ANALYSIS: We will conduct a systematic review and search major medical databases (Cochrane Central Register of Controlled Trials, Medline, Embase, Latin American and Caribbean Health Sciences Literature, Science Citation Index Expanded, Conference Proceedings Citation Index-Science) and clinical trial registries from their inception and onwards to identify relevant randomised clinical trials. We expect to conduct the literature search in July 2024. Two review authors will independently extract data and perform risk-of-bias assessments. We will include randomised clinical trials comparing oral or subcutaneous semaglutide versus placebo. Primary outcomes will be all-cause mortality and serious adverse events. Secondary outcomes will be myocardial infarction, stroke, all-cause hospitalisation and non-serious adverse events. Data will be synthesised by meta-analyses and trial sequential analysis; risk of bias will be assessed with Cochrane Risk of Bias tool-version 2, an eight-step procedure will be used to assess if the thresholds for statistical and clinical significance are crossed, and the certainty of the evidence will be assessed"
+      ],
+      "relevance": 0.873191899040639,
+      "citationCount": 3,
+      "n": 4
+    },
+    {
+      "id": "10.1080/14740338.2023.2172159",
+      "title": "Gastrointestinal disorders potentially associated with Semaglutide: an analysis from the Eudravigilance Database.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36695099",
+      "authors": [
+        "António Cabral Lopes",
+        "Fátima Roque",
+        "Olga Lourenço",
+        "Maria Teresa Herdeiro",
+        "Manuel Morgado"
+      ],
+      "publicationDate": "2023-01-01",
+      "doi": "10.1080/14740338.2023.2172159",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Gastrointestinal disorders potentially associated with Semaglutide: an analysis from the Eudravigilance Database.\n\nAuthors: António Cabral Lopes, Fátima Roque, Olga Lourenço, Maria Teresa Herdeiro, Manuel Morgado\n\nBACKGROUND: Semaglutide is a Glucagon-like peptide-1 receptor agonist used in the second-line treatment of poorly controlled type 2 diabetes and can be used in monotherapy or associated with other oral antidiabetics or even insulin, increasing the effectiveness of the treatment. This work aims to analyze the profile of adverse drug reactions reported for semaglutide in Eudravigilance.\n\nRESEARCH DESIGN AND METHODS: Data on Individual Cases Safety Reports were obtained from the database of the centralized European spontaneous reporting system Eudravigilance by accessing www.adrreports.eu. (1 December 2021).\n\nRESULTS: It is possible to observe a high prevalence of gastrointestinal disorders (N = 3502, 53.2%). The most severe reported cases were primarily gastrointestinal disorders, metabolic, and nutritional disorders, eye disorders, renal and urinary disorders and cardiac disorders, with an evident higher prevalence of adverse gastrointestinal events both in oral and injectable dosage form (N = 133, 50.0% vs N = 588, 47.2%, respectively). Through a comparative analysis, semaglutide had a greater number of reported gastrointestinal adverse events compared to sitagliptin and empaglifozin (p < 0.00001).\n\nCONCLUSIONS: Semaglutide has a good safety profile, however the definition of subgroups within the type 2 diabetes population who are particularly prone to develop serious adverse event when treated with GLP-1 RAs is crucial.",
+      "excerpts": [
+        "BACKGROUND: Semaglutide is a Glucagon-like peptide-1 receptor agonist used in the second-line treatment of poorly controlled type 2 diabetes and can be used in monotherapy or associated with other oral antidiabetics or even insulin, increasing the effectiveness of the treatment. This work aims to analyze the profile of adverse drug reactions reported for semaglutide in Eudravigilance.\n\nRESEARCH DESIGN AND METHODS: Data on Individual Cases Safety Reports were obtained from the database of the centralized European spontaneous reporting system Eudravigilance by accessing www.adrreports.eu. (1 December 2021).\n\nRESULTS: It is possible to observe a high prevalence of gastrointestinal disorders (N = 3502, 53.2%). The most severe reported cases were primarily gastrointestinal disorders, metabolic, and nutritional disorders, eye disorders, renal and urinary disorders and cardiac disorders, with an evident higher prevalence of adverse gastrointestinal events both in oral and injectable dosage form (N = 133, 50.0% vs N = 588, 47.2%, respectively). Through a comparative analysis, semaglutide had a greater number of reported gastrointestinal adverse events compared to sitagliptin and empaglifozin (p < 0.00001).\n\nCONCLUSIONS: Semaglutide has a good safety profile, however the definition of subgroups within the type 2 diabetes population who are particularly prone to develop serious adverse event when treated with GLP-1 RAs is crucial.\n"
+      ],
+      "relevance": 0.8692601069532612,
+      "citationCount": 6,
+      "n": 5
+    },
+    {
+      "id": "10.1097/MD.0000000000049986",
+      "title": "Effectiveness & safety of semaglutide in weight reduction in obese nondiabetic patients: A systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC13433015",
+      "authors": [
+        "Faryal Naz",
+        "Fawad Qaiser",
+        "Arif Mumtaz",
+        "Siraj-ud Din",
+        "Amjad Mustafa",
+        "Asif Ullah",
+        "Abida Perveen",
+        "Jahanzeb Malik"
+      ],
+      "publicationDate": "2026-07-31",
+      "doi": "10.1097/MD.0000000000049986",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Effectiveness & safety of semaglutide in weight reduction in obese nondiabetic patients: A systematic review and meta-analysis\n\nAuthors: Faryal Naz, Fawad Qaiser, Arif Mumtaz, Siraj-ud Din, Amjad Mustafa, Asif Ullah, Abida Perveen, Jahanzeb Malik\n\n## Background:\nObesity is a chronic multifactorial disease characterized by excess adiposity and persistent low-grade systemic inflammation, contributing substantially to cardiometabolic morbidity and mortality. Semaglutide, a long-acting glucagon-like peptide-1 receptor agonist approved for chronic weight management, promotes weight loss by reducing appetite, delaying gastric emptying, and decreasing energy intake while also demonstrating potential anti-inflammatory effects. Although semaglutide has shown promising efficacy for weight reduction, an updated evaluation of its efficacy and safety in nondiabetic individuals with overweight or obesity is warranted.\n\n## Methods:\nA systematic review and meta-analysis was conducted according to PRISMA 2020 guidelines. PubMed/MEDLINE, Embase, Scopus, and CINAHL were searched from inception to March 2025 for randomized controlled trials evaluating subcutaneous semaglutide in adults with overweight or obesity without type 2 diabetes mellitus. The primary outcome was the percentage change in body weight from baseline. Secondary outcomes included overall gastrointestinal adverse events, nausea, vomiting, diarrhea, constipation, treatment discontinuation due to adverse events, and serious adverse events. Pooled estimates were calculated using a random-effects model.\n\n## Results:\nFour randomized controlled trials involving 3613 participants met the eligibility criteria. Semaglutide produced significantly greater weight loss than placebo (mean difference: −11.85%; 95% confidence interval [CI]: −12.81 to − 10.90; *P* < .00001). Overall gastrointestinal adverse events were significantly more frequent with semaglutide, with nausea, vomiting, diarrhea, and constipation representing the most commonly reported events. Treatment discontinuation due to adverse events was also significantly higher in the semaglutide group (RR 2.62, 95% CI: 1.70-4.03; *P* = .001). Serious adverse events, including acute pancreatitis and cholelithiasis, were uncommon.\n\n## Conclusions:\nSubcutaneous semaglutide is an effective treatment for weight reduction in adults with overweight or obesity without type 2 diabetes mellitus but is associated with an increased risk of gastrointestinal adverse events, particularly nausea, vomiting, diarrhea, and constipation, as well as higher treatment discontinuation. Serious adverse events were rare. Further long-term randomized trials are needed to evaluate the durability of weight loss and the long-term safety profile of semaglutide.",
+      "excerpts": [
+        "#### 3.4.3. Discontinuation due to adverse events\nParticipants in the semaglutide group were more likely to discontinue treatment due to adverse events as shown in Table [T5] with a risk ratio of 2.62 (95% CI [1.70, 4.03], *P* = .001, *I*2 = 32%). The discontinuation rate was 6% in the semaglutide group compared to 2.9% in the placebo group, as shown in Figure [F3].\n<FG id='F2'>\n**Figure 2**: Figure 2.\n<F href='medi-105-e49986-g002.jpg'>\nQuality assessment.\n</F>\n</FG>"
+      ],
+      "relevance": 0.7688754466630568,
+      "citationCount": 0,
+      "n": 6
+    },
+    {
+      "id": "10.1007/s40200-025-01711-8",
+      "title": "Semaglutide - properties, action and chromatographic analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC12420565",
+      "authors": [
+        "Barbara Wasilewska",
+        "Anna Petruczynik"
+      ],
+      "publicationDate": "2025-09-08",
+      "doi": "10.1007/s40200-025-01711-8",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Semaglutide - properties, action and chromatographic analysis\n\nAuthors: Barbara Wasilewska, Anna Petruczynik\n\n## Objectives\nThis review assessed the selected information on semaglutide’s activity, its potential for the treatment of various diseases, and its pharmacokinetics. It is intended as a guide for future research. Chromatographic procedures used for the determination of semaglutide in various biological samples were also reviewed.\n\n## Methods\nA comprehensive review of the literature was conducted by searching scientific databases including PubMed, Scopus, Web of Science, and Google Scholar. The search was performed using keywords such as diabetic, type of diabetics, impact of diabetic glucagon-like peptide, DPP-4 inhibitors, GLP-1 agonists, semaglutide and weight loss, semaglutide and obesity, semaglutide and diabetic retinopathy, semalutide and mood, semaglutide and mood disorder, semaglutide and fertility, semaglutide and thyroid, semaglutide and inflammation, semaglutide and cardiovascular system, semaglutide and imapct on heart, semaglutide and neuroprotection, semaglutide and pancreatitis, safety of semaglutide, semaglutide and side effects, semaglutide and contraindication, and semaglutide analysis by liquid chromatography.\n\n## Results\nSemaglutide is the most potent glucose-lowering glucagon-like peptide (GLP-1) analogue and is widely used in the treatment of type 2 diabetes. Semaglutide increases the secretion of insulin from pancreatic β-cells and supresses glucagon release from pancreatic α-cells. Due to its effects on appetite regulation, it is also used to treat obesity in many countries. However, due to the slimming properties of the drug, semaglutide is often abused by non-diabetics, non-obese individuals, and young people. Recently, numerous investigations have been conducted to better understand the mechanism of action, as well as the advantages and disadvantages of using semaglutide. It is also very important to develop sensitive and accurate methods for detecting this drug in various biological samples collected from patients.\n\n## Conclusion\nSemaglutide is increasingly used of for the treatment of type 2 diabetes; however, its misuse for weight loss is also increasing. Further research is required to confirm the benefits of using semaglutide and to optimize treatment strategies for diverse patient populations.",
+      "excerpts": [
+        "### Vision\nLong-term elevated blood sugar levels can lead to diabetic retinopathy, a complication characterized by extensive damage to the retina’s blood vessels, resulting in microaneurysms, hemorrhages, and macular edema, potenitally even leading to vision loss. Recent concerns have arisen as to the potential association between semaglutide and retinopathy progression in diabetics.\nHathaway et al. reported that semaglutide may contribute to a higher risk of intensity of retinopathy (particulary in diabetics with existing retinopathy), with a rapid reduction in hemoglobin A1c levels and a higher rate of progression of proliferative retinopathy, as well as risk of new-onset macular edema [44].\nAnother three-year clinical study involved 87 patients with at least 1 year of semagluide use, complete documentation of retinopathy levels, visual acuity, and central subfield thickness [45]. During the study period, 63.2% of patients required intravitreal anti-vascular endothelial growth factor injections. Visual acuity remained constant for 72.4% of patients, with 16.1% experiencing vision loss and 11.5% showing improvement. The study did not reveal a clear association between semaglutide treatment and an increased risk of progression of diabetic retinopathy or vision loss. Therefore, further research is needed to draw conslusive evidence.\n\n### Mood disorder\nAccording to research investigating the relationship between semaglitude treatment for diabetes/obesity and mood disorders, sem"
+      ],
+      "relevance": 0.7654224037193983,
+      "citationCount": 3,
+      "n": 7
+    },
+    {
+      "id": "https://clinicaltrials.gov/study/NCT07511543",
+      "title": "A Multicentre, Prospective, Randomized, Open-label, Blinded Endpoint, Pilot Clinical Trial Evaluating Subcutaneous Semaglutide in Patients With Acute Ischaemic Stroke Due to Anterior Circulation Large Vessel Occlusion Treated With Endovascular Thrombectomy",
+      "url": "https://clinicaltrials.gov/study/NCT07511543",
+      "publicationDate": "2026-04-06",
+      "provider": "valyu/valyu-clinical-trials",
+      "excerpts": [
+        "{\n  \"nct_id\": \"NCT07511543\",\n  \"brief_title\": \"Glucagon-like Peptide-1 Receptor Agonists for Endovascular Stroke Thrombectomy\",\n  \"official_title\": \"A Multicentre, Prospective, Randomized, Open-label, Blinded Endpoint, Pilot Clinical Trial Evaluating Subcutaneous Semaglutide in Patients With Acute Ischaemic Stroke Due to Anterior Circulation Large Vessel Occlusion Treated With Endovascular Thrombectomy\",\n  \"acronym\": \"LEAST\",\n  \"overall_status\": \"NOT_YET_RECRUITING\",\n  \"why_stopped\": \"N/A\",\n  \"start_date\": \"2026-10-31\",\n  \"start_date_type\": \"ESTIMATED\",\n  \"completion_date\": \"2028-10-31\",\n  \"completion_date_type\": \"ESTIMATED\",\n  \"study_completion_date\": \"2029-01-31\",\n  \"study_completion_date_type\": \"ESTIMATED\",\n  \"study_first_posted\": \"2026-04-06\",\n  \"last_update_posted\": \"2026-09-24\",\n  \"results_first_posted\": \"N/A\",\n  \"study_type\": \"INTERVENTIONAL\",\n  \"phases\": \"PHASE2\",\n  \"allocation\": \"RANDOMIZED\",\n  \"intervention_model\": \"PARALLEL\",\n  \"masking\": \"SINGLE\",\n  \"primary_purpose\": \"TREATMENT\",\n  \"enrollment_count\": 100,\n  \"enrollment_type\": \"ESTIMATED\",\n  \"brief_summary\": \"Endovascular thrombectomy (EVT) is a procedure that improves recovery for people who suffer from a stroke by removing blood clots from large blood vessels in the brain. However, even with this treatment, over half of the patients either pass away or are left with serious disabilities within three months. This is partly because, even in cases of a successful EVT, brain tissue damage continues to grow. Extent "
+      ],
+      "relevance": 0.97,
+      "n": 8
+    },
+    {
+      "id": "https://clinicaltrials.gov/study/NCT03548935",
+      "title": "Effect and Safety of Semaglutide 2.4 mg Once-weekly in Subjects With Overweight or Obesity",
+      "url": "https://clinicaltrials.gov/study/NCT03548935",
+      "publicationDate": "2018-06-07",
+      "provider": "valyu/valyu-clinical-trials",
+      "excerpts": [
+        "{\n  \"nct_id\": \"NCT03548935\",\n  \"brief_title\": \"STEP 1: Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity\",\n  \"official_title\": \"Effect and Safety of Semaglutide 2.4 mg Once-weekly in Subjects With Overweight or Obesity\",\n  \"acronym\": \"STEP 1\",\n  \"overall_status\": \"COMPLETED\",\n  \"why_stopped\": \"N/A\",\n  \"start_date\": \"2018-06-04\",\n  \"start_date_type\": \"ACTUAL\",\n  \"completion_date\": \"2020-03-30\",\n  \"completion_date_type\": \"ACTUAL\",\n  \"study_completion_date\": \"2021-03-05\",\n  \"study_completion_date_type\": \"ACTUAL\",\n  \"study_first_posted\": \"2018-06-07\",\n  \"last_update_posted\": \"2021-11-19\",\n  \"results_first_posted\": \"2021-08-11\",\n  \"study_type\": \"INTERVENTIONAL\",\n  \"phases\": \"PHASE3\",\n  \"allocation\": \"RANDOMIZED\",\n  \"intervention_model\": \"PARALLEL\",\n  \"masking\": \"QUADRUPLE\",\n  \"primary_purpose\": \"TREATMENT\",\n  \"enrollment_count\": 1961,\n  \"enrollment_type\": \"ACTUAL\",\n  \"brief_summary\": \"This study will look at the change in participants' body weight from the start to the end of the study. The weight loss in participants taking semaglutide (a new medicine) will be compared to the weight loss of participants taking \\\"dummy\\\" medicine. In addition to taking the medicine, participants will have talks with study staff about healthy food choices, how to be more physically active and what you can do to lose weight. Participants will either get semaglutide or \\\"dummy\\\" medicine - which treatment participants get, is decided by chance. Par"
+      ],
+      "relevance": 0.97,
+      "n": 9
+    },
+    {
+      "id": "https://clinicaltrials.gov/study/NCT04892199",
+      "title": "Does the Glucagon-like Peptide-1 Receptor Agonist Semaglutide Prevent Deterioration of Metabolic State in Prediabetic or Diabetic Patients With Schizophrenia Treated With the Antipsychotic Compounds Clozapine or Olanzapine?",
+      "url": "https://clinicaltrials.gov/study/NCT04892199",
+      "publicationDate": "2021-05-19",
+      "provider": "valyu/valyu-clinical-trials",
+      "excerpts": [
+        "{\n  \"nct_id\": \"NCT04892199\",\n  \"brief_title\": \"Does GLP-1RA Prevent Deterioration of Metabolic State in Prediabetic and Diabetic Patients Treated With Antipsychotic Medication?\",\n  \"official_title\": \"Does the Glucagon-like Peptide-1 Receptor Agonist Semaglutide Prevent Deterioration of Metabolic State in Prediabetic or Diabetic Patients With Schizophrenia Treated With the Antipsychotic Compounds Clozapine or Olanzapine?\",\n  \"acronym\": \"N/A\",\n  \"overall_status\": \"UNKNOWN\",\n  \"why_stopped\": \"N/A\",\n  \"start_date\": \"2021-09-01\",\n  \"start_date_type\": \"ACTUAL\",\n  \"completion_date\": \"2026-03-01\",\n  \"completion_date_type\": \"ESTIMATED\",\n  \"study_completion_date\": \"2026-08-01\",\n  \"study_completion_date_type\": \"ESTIMATED\",\n  \"study_first_posted\": \"2021-05-19\",\n  \"last_update_posted\": \"2024-09-25\",\n  \"results_first_posted\": \"N/A\",\n  \"study_type\": \"INTERVENTIONAL\",\n  \"phases\": \"PHASE4\",\n  \"allocation\": \"RANDOMIZED\",\n  \"intervention_model\": \"PARALLEL\",\n  \"masking\": \"TRIPLE\",\n  \"primary_purpose\": \"TREATMENT\",\n  \"enrollment_count\": 104,\n  \"enrollment_type\": \"ESTIMATED\",\n  \"brief_summary\": \"Background and objective:\\n\\nClozapine and olanzapine are some of the most effective antipsychotic drugs, but unfortunately, both drugs induce weight gain and conveys a high degree of metabolic disturbances. The antipsychotic-induced side-effects cause a major clinical problem among patients diagnosed with schizophrenia receiving antipsychotic treatment. Limited effects have been demonstrated for counterac"
+      ],
+      "relevance": 0.97,
+      "n": 10
+    },
+    {
+      "id": "https://clinicaltrials.gov/study/NCT05669755",
+      "title": "The Cardiovascular Safety and Efficacy of Cagrilintide 2.4 mg s.c. in Combination With Semaglutide 2.4 mg s.c. (CagriSema 2.4 mg/2.4 mg s.c.) Once-weekly in Participants With Established Cardiovascular Disease",
+      "url": "https://clinicaltrials.gov/study/NCT05669755",
+      "publicationDate": "2023-01-03",
+      "provider": "valyu/valyu-clinical-trials",
+      "excerpts": [
+        "{\n  \"nct_id\": \"NCT05669755\",\n  \"brief_title\": \"REDEFINE 3: A Research Study to See the Effects of CagriSema in People Living With Diseases in the Heart and Blood Vessels\",\n  \"official_title\": \"The Cardiovascular Safety and Efficacy of Cagrilintide 2.4 mg s.c. in Combination With Semaglutide 2.4 mg s.c. (CagriSema 2.4 mg/2.4 mg s.c.) Once-weekly in Participants With Established Cardiovascular Disease\",\n  \"acronym\": \"REDEFINE 3\",\n  \"overall_status\": \"ACTIVE_NOT_RECRUITING\",\n  \"why_stopped\": \"N/A\",\n  \"start_date\": \"2023-03-01\",\n  \"start_date_type\": \"ACTUAL\",\n  \"completion_date\": \"2027-09-01\",\n  \"completion_date_type\": \"ESTIMATED\",\n  \"study_completion_date\": \"2027-10-14\",\n  \"study_completion_date_type\": \"ESTIMATED\",\n  \"study_first_posted\": \"2023-01-03\",\n  \"last_update_posted\": \"2026-08-31\",\n  \"results_first_posted\": \"N/A\",\n  \"study_type\": \"INTERVENTIONAL\",\n  \"phases\": \"PHASE3\",\n  \"allocation\": \"RANDOMIZED\",\n  \"intervention_model\": \"PARALLEL\",\n  \"masking\": \"QUADRUPLE\",\n  \"primary_purpose\": \"TREATMENT\",\n  \"enrollment_count\": 7101,\n  \"enrollment_type\": \"ACTUAL\",\n  \"brief_summary\": \"This study will look at the effects of CagriSema on cardiovascular events (for example heart attack and stroke) in people living with cardiovascular disease. Participants will either get CagriSema or a dummy medicine (also called \\\"placebo\\\") which has no effect on the body. Which treatment participants will get will be decided by chance. Participant's chance of getting CagriSema or placebo is the same. P"
+      ],
+      "relevance": 0.97,
+      "n": 11
+    },
+    {
+      "id": "https://clinicaltrials.gov/study/NCT05521256",
+      "title": "A First Human Dose Study Investigating Safety, Tolerability, and Pharmacokinetics of Oral Single Doses of NNC0113-6856 in Healthy Male Participants",
+      "url": "https://clinicaltrials.gov/study/NCT05521256",
+      "publicationDate": "2022-08-30",
+      "provider": "valyu/valyu-clinical-trials",
+      "excerpts": [
+        "{\n  \"nct_id\": \"NCT05521256\",\n  \"brief_title\": \"A Research Study of a New Medicine NNC0113-6856 in Healthy Males\",\n  \"official_title\": \"A First Human Dose Study Investigating Safety, Tolerability, and Pharmacokinetics of Oral Single Doses of NNC0113-6856 in Healthy Male Participants\",\n  \"acronym\": \"N/A\",\n  \"overall_status\": \"COMPLETED\",\n  \"why_stopped\": \"N/A\",\n  \"start_date\": \"2022-08-26\",\n  \"start_date_type\": \"ACTUAL\",\n  \"completion_date\": \"2023-03-27\",\n  \"completion_date_type\": \"ACTUAL\",\n  \"study_completion_date\": \"2023-03-27\",\n  \"study_completion_date_type\": \"ACTUAL\",\n  \"study_first_posted\": \"2022-08-30\",\n  \"last_update_posted\": \"2025-12-31\",\n  \"results_first_posted\": \"N/A\",\n  \"study_type\": \"INTERVENTIONAL\",\n  \"phases\": \"PHASE1\",\n  \"allocation\": \"RANDOMIZED\",\n  \"intervention_model\": \"SEQUENTIAL\",\n  \"masking\": \"QUADRUPLE\",\n  \"primary_purpose\": \"TREATMENT\",\n  \"enrollment_count\": 70,\n  \"enrollment_type\": \"ACTUAL\",\n  \"brief_summary\": \"In this study NN0113-6856 will be given to humans for the first time. We will be looking into how safe different single doses of the new investigational product NNC0113-6856 is and we will measure its amount as well as the amount of specific parts of the new investigational product in blood. The study will look at the effects of different single doses of NNC0113-6856. This could either be as an oral dose (cohort 1 to 5) or one injection into the vein (intravenous \\\\[IV\\\\]-cohort). Participant will get the investigational product either as one or t"
+      ],
+      "relevance": 0.97,
+      "n": 12
+    },
+    {
+      "id": "https://clinicaltrials.gov/study/NCT06374875",
+      "title": "A Prospective Multicenter International Randomized Controlled Trial Comparing Surgical and Medical Therapies in the Treatment of Advanced Metabolic Dysfunction Associated Steatohepatitis",
+      "url": "https://clinicaltrials.gov/study/NCT06374875",
+      "publicationDate": "2024-04-19",
+      "provider": "valyu/valyu-clinical-trials",
+      "excerpts": [
+        "{\n  \"nct_id\": \"NCT06374875\",\n  \"brief_title\": \"Fibrosis Lessens After Metabolic Surgery\",\n  \"official_title\": \"A Prospective Multicenter International Randomized Controlled Trial Comparing Surgical and Medical Therapies in the Treatment of Advanced Metabolic Dysfunction Associated Steatohepatitis\",\n  \"acronym\": \"FLAMES\",\n  \"overall_status\": \"RECRUITING\",\n  \"why_stopped\": \"N/A\",\n  \"start_date\": \"2024-07-11\",\n  \"start_date_type\": \"ACTUAL\",\n  \"completion_date\": \"2029-05-31\",\n  \"completion_date_type\": \"ESTIMATED\",\n  \"study_completion_date\": \"2029-12-31\",\n  \"study_completion_date_type\": \"ESTIMATED\",\n  \"study_first_posted\": \"2024-04-19\",\n  \"last_update_posted\": \"2026-07-31\",\n  \"results_first_posted\": \"N/A\",\n  \"study_type\": \"INTERVENTIONAL\",\n  \"phases\": \"PHASE4\",\n  \"allocation\": \"RANDOMIZED\",\n  \"intervention_model\": \"PARALLEL\",\n  \"masking\": \"SINGLE\",\n  \"primary_purpose\": \"TREATMENT\",\n  \"enrollment_count\": 120,\n  \"enrollment_type\": \"ESTIMATED\",\n  \"brief_summary\": \"Metabolic dysfunction-associated steatotic liver disease (MASLD), formerly known as non-alcoholic fatty liver disease (NAFLD), a major global public health concern, is commonly associated with obesity, diabetes, and dyslipidemia. MASLD is currently the most common cause of chronic liver disease affecting about 80% of people with obesity, ranging from simple fat deposits in the liver to Metabolic Dysfunction-Associated Steatohepatitis (MASH), cellular injury, advanced fibrosis, cirrhosis, or hepatocellular carcinoma. Patient"
+      ],
+      "relevance": 0.97,
+      "n": 13
+    },
+    {
+      "id": "https://clinicaltrials.gov/study/NCT06659744",
+      "title": "Emulation of Effects of Injectable Semaglutide on Cardiovascular Outcomes in Individuals With Type 2 Diabetes: SUSTAIN6 Trial",
+      "url": "https://clinicaltrials.gov/study/NCT06659744",
+      "publicationDate": "2024-10-26",
+      "provider": "valyu/valyu-clinical-trials",
+      "excerpts": [
+        "{\n  \"nct_id\": \"NCT06659744\",\n  \"brief_title\": \"Emulation of the SUSTAIN6 Diabetes Trial Using Healthcare Claims\",\n  \"official_title\": \"Emulation of Effects of Injectable Semaglutide on Cardiovascular Outcomes in Individuals With Type 2 Diabetes: SUSTAIN6 Trial\",\n  \"acronym\": \"N/A\",\n  \"overall_status\": \"COMPLETED\",\n  \"why_stopped\": \"N/A\",\n  \"start_date\": \"2024-10-24\",\n  \"start_date_type\": \"ACTUAL\",\n  \"completion_date\": \"2025-03-06\",\n  \"completion_date_type\": \"ACTUAL\",\n  \"study_completion_date\": \"2025-03-06\",\n  \"study_completion_date_type\": \"ACTUAL\",\n  \"study_first_posted\": \"2024-10-26\",\n  \"last_update_posted\": \"2025-10-15\",\n  \"results_first_posted\": \"N/A\",\n  \"study_type\": \"OBSERVATIONAL\",\n  \"phases\": \"\",\n  \"allocation\": \"N/A\",\n  \"intervention_model\": \"N/A\",\n  \"masking\": \"N/A\",\n  \"primary_purpose\": \"N/A\",\n  \"enrollment_count\": 158310,\n  \"enrollment_type\": \"ACTUAL\",\n  \"brief_summary\": \"Investigators are building an empirical evidence base for real world data through large-scale emulation of randomized controlled trials. The investigators' goal is to understand for what types of clinical questions real world data analyses can be conducted with confidence and how to implement such studies.\",\n  \"detailed_description\": \"This is a non-randomized, non-interventional study that is part of the RCT DUPLICATE initiative (www.rctduplicate.org) of the Brigham and Women's Hospital, Harvard Medical School. It is intended to emulate, as closely as is possible in healthcare insurance claims dat"
+      ],
+      "relevance": 0.97,
+      "n": 14
+    },
+    {
+      "id": "https://clinicaltrials.gov/study/NCT06396416",
+      "title": "Obesity Management for Kidney TRANSPLANTation: a Vanguard Study for an Innovative Randomized Controlled Trial, Embedded in Routine Care (OK-TRANSPLANT 2)",
+      "url": "https://clinicaltrials.gov/study/NCT06396416",
+      "publicationDate": "2024-05-02",
+      "provider": "valyu/valyu-clinical-trials",
+      "excerpts": [
+        "{\n  \"nct_id\": \"NCT06396416\",\n  \"brief_title\": \"Obesity Management for Kidney TRANSPLANTation: OK-TRANSPLANT 2\",\n  \"official_title\": \"Obesity Management for Kidney TRANSPLANTation: a Vanguard Study for an Innovative Randomized Controlled Trial, Embedded in Routine Care (OK-TRANSPLANT 2)\",\n  \"acronym\": \"N/A\",\n  \"overall_status\": \"RECRUITING\",\n  \"why_stopped\": \"N/A\",\n  \"start_date\": \"2024-09-26\",\n  \"start_date_type\": \"ACTUAL\",\n  \"completion_date\": \"2026-09-30\",\n  \"completion_date_type\": \"ESTIMATED\",\n  \"study_completion_date\": \"2026-12\",\n  \"study_completion_date_type\": \"ESTIMATED\",\n  \"study_first_posted\": \"2024-05-02\",\n  \"last_update_posted\": \"2026-06-29\",\n  \"results_first_posted\": \"N/A\",\n  \"study_type\": \"INTERVENTIONAL\",\n  \"phases\": \"PHASE4\",\n  \"allocation\": \"RANDOMIZED\",\n  \"intervention_model\": \"PARALLEL\",\n  \"masking\": \"DOUBLE\",\n  \"primary_purpose\": \"OTHER\",\n  \"enrollment_count\": 60,\n  \"enrollment_type\": \"ESTIMATED\",\n  \"brief_summary\": \"OK-TRANSPLANT 2 is a vanguard study for a large randomized, pragmatic, open-label trial.\\n\\nWe will randomize participants with obesity, high-risk CKD/dialysis who are hoping for lose weight for the purpose of kidney transplant. Subjects will either be enrolled on a virtual weight management program or continue their usual care.\",\n  \"detailed_description\": \"Obesity is well-recognized as an independent risk factor for chronic kidney disease (CKD) including end-staged kidney disease (ESKD). In people with ESKD, obesity can preclude access to lifes"
+      ],
+      "relevance": 0.97,
+      "n": 15
+    },
+    {
+      "id": "https://www.drugs.com/semaglutide.html",
+      "title": "Semaglutide: Uses, Dosage, Side Effects, Brands - Drugs.com",
+      "url": "https://www.drugs.com/semaglutide.html",
+      "publicationDate": "2026-08-26",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "# Semaglutide\n## Semaglutide side effects\n### Common semaglutide side effects\nCommon semaglutide side effects may include upset stomach, heartburn, burping, gas, bloating, nausea, vomiting, stomach pain, loss of appetite, diarrhea, constipation, stomach flu symptoms, low blood sugar (in people with type 2 diabetes), headache, dizziness, tiredness, hair loss, and changes in skin sensations.\n\nStomach or gastrointestinal side effects are common, but they tend to be mild and clear up in a few weeks and usually will not interfere with long-term treatment. Stomach side effects can be more common with higher doses.\n\n#### Tips for managing stomach side effects\n- Ryebelsus is not recommended in patients with severe gastroparesis.\n\n#### Tips for managing low blood sugar levels (hypoglycemia) side effects\n- Your prescriber might reduce your dose of insulin or sulphonylureas if needed to reduce the risk of hypoglycemia\n- Symptoms of low blood sugar levels include:\n- feeling hungry\n- feeling dizzy\n- feeling anxious or irritable\n- sweaty\n- shaky\n- tingling lips\n- heart palpitations\n- feeling tired or weak\n- changes in your vision, such as blurred vision\n\n- If your blood sugar is still low, have another sugary drink or snack, and check again after 10 minutes.\n- Once your symptoms have improved, eat a healthy snack or meal that will keep your blood sugar up for longer and prevent another drop in blood sugar.\n- Severe hypoglycemia may require a glucagon injection.\n\n### Serious semaglutide sid"
+      ],
+      "relevance": 0.9523694641649787,
+      "n": 16
+    },
+    {
+      "id": "https://www.rivasweightloss.com/blog/semaglutide-side-effects/",
+      "title": "Semaglutide Side Effects: Common vs Serious Symptoms | Rivas Medical Weight Loss",
+      "url": "https://www.rivasweightloss.com/blog/semaglutide-side-effects/",
+      "publicationDate": "2026-03-04",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "# Semaglutide Side Effects: Common vs Serious Symptoms\n\nUpdated onMarch 4, 2026 [Latest News](https://www.rivasweightloss.com/blog/blog/) Reading Time: 6 minutes\n\n![](https://www.rivasweightloss.com/wp-content/uploads/2024/05/Eli_Luft_tall.png) ![](https://www.rivasweightloss.com/wp-content/uploads/2024/05/dr_rivas-avtar-1.png) Written By [Eli Luft, PA-C](https://www.rivasweightloss.com/team/eli-luft/) Medically Reviewed by [Dr. Paul Rivas](https://www.rivasweightloss.com/about-us/) Evidence-based\n\n1. Most semaglutide side effects are mild and digestive. Nausea, constipation, and diarrhea are common early on and often improve with time.\n2. Know the warning signs. Severe stomach pain, dehydration, or allergic reactions need prompt medical care.\n3. Start low and go slow. Gradual dosing, smaller meals, and hydration can reduce discomfort\n4. Stay under medical supervision. Regular check-ins help keep treatment safe and effective.\n\nIn recent years, [semaglutide](https://www.rivasweightloss.com/semaglutide-guide/) has become a major buzzword in the medical weight loss field. Like with all medications, there are potential side effects, and knowing the difference between typical reactions and signs that need quick attention will help you stay safe during treatment.\n\nMost semaglutide side effects affect the digestive system and tend to appear early on or directly after an increase in dosage. The symptoms are usually mild to moderate and improve as the body adjusts."
+      ],
+      "relevance": 0.9283844483261551,
+      "n": 17
+    },
+    {
+      "id": "https://www.goodrx.com/ozempic/semaglutide-side-effects",
+      "title": "20 Ozempic and Wegovy Side Effects You Should Know About - GoodRx",
+      "url": "https://www.goodrx.com/ozempic/semaglutide-side-effects",
+      "publicationDate": "2026-07-02",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "Ozempic\n\n# 20 Side Effects of Semaglutide for Type 2 Diabetes (Ozempic) and Weight Loss (Wegovy)\n\nWritten by [Zuri C. Hawkins-Jarrett, PharmD, MPH, BCPS](https://www.goodrx.com/about/bio/zuri-hawkins-jarrett),[Alyssa Billingsley, PharmD](https://www.goodrx.com/about/bio/alyssa-billingsley) | Reviewed by [Christina Aungst, PharmD, MWC](https://www.goodrx.com/about/bio/christina-aungst)Updated on\n\n*Reviewed by [Sanjai Sinha, MD](https://www.goodrx.com/about/bio/sanjai-sinha) | March 4, 2025*\n\n## Key takeaways:\n\n- Semaglutide is a medication that’s used to treat Type 2 diabetes (as Ozempic and Rybelsus) and to help people lose weight (as Wegovy and Wegovy HD). It commonly causes gastrointestinal side effects that are often worse when starting treatment and after dose increases.\n- Nausea, vomiting, and diarrhea are the most common semaglutide side effects. But they usually improve after a few weeks. Dietary and lifestyle changes can help manage many of these side effects.\n- Although rare, serious side effects have been reported with semaglutide. Examples include pancreatitis, gallbladder disease, and kidney damage. Gastroparesis (stomach paralysis) and intestinal blockage have also been reported.\n\n#### Save on related medications\n\nPromotional Disclosure\n\n[ozempic](https://www.goodrx.com/ozempic)[wegovy](https://www.goodrx.com/wegovy)[rybelsus](https://www.goodrx.com/rybelsus)\n\nImagine you’ve just started semaglutide, sold as [Ozempic](https://www.goodrx."
+      ],
+      "relevance": 0.9282543973046666,
+      "n": 18
+    },
+    {
+      "id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11790292/",
+      "title": "Semaglutide: Double-edged Sword with Risks and Benefits",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11790292/",
+      "publicationDate": "2025-01-10",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "\nJournal Information:\nID: 51137, 9918300879806676, Arch Intern Med Res\nTitle: Archives of internal medicine research\nISSN: 2688-5654\n\nTitle: Semaglutide: Double-edged Sword with Risks and Benefits\n\nAuthors:\n- Lekha Pillarisetti\n- Devendra K. Agrawal\n\nType 2 Diabetes Mellitus therapy has evolved over the years to now include a new class of therapeutics, semaglutide. This article reviews the mechanism of action and formulation of semaglutide therapy, potential benefits, contraindications, adverse effects, and drug interactions. Oral and subcutaneous semaglutide therapies have shown effectiveness in improving glycemic control, weight loss, and reducing cardiovascular risks associated with diabetes mellitus. Semaglutide has also shown potential in being used as a therapeutic strategy in Alzheimer’s disease due to its anti-neuroinflammatory effects and being used to treat polycystic ovary syndrome. However, semaglutide therapy is also associated with concerning adverse effects like acute pancreatitis, anesthetic risks like pulmonary aspiration or residual gastric content, acute kidney injury, acute gallbladder injury, nonarteritic anterior ischemic optic neuropathy and diabetic retinopathy. Contraindications of semaglutide include history of medullary thyroid carcinoma or multiple endocrine neoplasia syndrome type 2, and pregnancy. Drug interactions to consider with semaglutide therapy include those also used in diabetes treatment, like metformin, as well as anti-psychotics, due t"
+      ],
+      "relevance": 0.9058221531847592,
+      "n": 19
+    },
+    {
+      "id": "https://www.goodrx.com/ozempic/semaglutide-side-effects-management-strategies",
+      "title": "Semaglutide Side Effects: Management Strategies and More - GoodRx",
+      "url": "https://www.goodrx.com/ozempic/semaglutide-side-effects-management-strategies",
+      "publicationDate": "2026-08-17",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "Ozempic\n\n# The Best Ways to Manage Semaglutide Side Effects\n\nWritten by [Brian Clista, MD](https://www.goodrx.com/about/bio/brian-clista) | Reviewed by [Mandy Armitage, MD](https://www.goodrx.com/about/bio/mandy-armitage)Updated on\n\n*Reviewed by [Patricia Pinto-Garcia, MD, MPH](https://www.goodrx.com/about/bio/patricia-pinto-garcia) | July 9, 2026*\n\n## Key takeaways:\n\n- Semaglutide is FDA approved to treat Type 2 diabetes and metabolic-associated steatohepatitis (MASH). It’s also approved for weight management and to lower the risk of heart attack, stroke, and worsening kidney disease in people with Type 2 diabetes.\n- Semaglutide can cause many side effects. The most common ones include nausea, gas, bloating, and stool changes. Most of these side effects last a few days to a few weeks.\n- You can try changing your diet and taking over-the-counter medications to prevent or treat semaglutide side effects. But they usually go away on their own over time.\n\n#### Save on related medications\n\nPromotional Disclosure\n\n[wegovy](https://www.goodrx.com/wegovy)[rybelsus](https://www.goodrx.com/rybelsus)\n\nSemaglutide is FDA approved to treat [Type 2 diabetes](https://www.goodrx.com/conditions/diabetes-type-2) and [metabolic-associated steatohepatitis](https://www.goodrx.com/conditions/liver-disease/fatty-liver-disease) (MASH). It’s also approved for weight management and to lower the risk of heart attacks, stroke, and worsening kidney disease in people with diabetes."
+      ],
+      "relevance": 0.8940769309480402,
+      "n": 20
+    },
+    {
+      "id": "https://www.wegovy.com/obesity/is-wegovy-right-for-me/safety-side-effects.html",
+      "title": "Wegovy® Side Effects | Wegovy® (semaglutide)",
+      "url": "https://www.wegovy.com/obesity/is-wegovy-right-for-me/safety-side-effects.html",
+      "publicationDate": "2026-10-04",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "![Man riding a bicycle with friends](https://s7d9.scene7.com/is/image/novonordisk/1_4_hero-dsktp?ts=1776261685046&&hei=240&dpr=off)\n\n*Actor portrayals.*\n\n![Man riding a bicycle with friends](https://s7d9.scene7.com/is/image/novonordisk/1_4_hero%3A16by9?ts=1776261684651&dpr=off)\n\n*Actor portrayals.*\n\nWHAT YOU MIGHT EXPECT WITH WEGOVY®\n\nWhen taking Wegovy®, talk to your healthcare professional about any side effects that bother you or don't go away. Wegovy® is a prescription medicine for adults with obesity, or with overweight and at least one weight-related medical problem, along with a reduced-calorie diet and increased physical activity, to help them lose weight and keep it off.\n\nJump to:\n\nMost common side effects\n\nTips for nausea\n\nFAQs\n\nMost common side effects Tips for nausea FAQs\n\nMost common side effects of Wegovy® may include:\n\n- Nausea\n- Diarrhea\n- Vomiting\n- Constipation\n\n- Stomach (abdomen) pain\n- Changes in skin sensations\n- Headache\n- Tiredness (fatigue)\n- Upset stomach\n\n- Dizziness\n- Feeling bloated\n- Belching\n- Low blood sugar in people\n\nwith type 2 diabetes\n\n- Gas\n- Stomach flu\n- Heartburn\n- Hair loss\n\nThe use of Wegovy® has been associated with gastrointestinal (GI) side effects, which are sometimes severe.* Wegovy® is not recommended in patients with severe gastroparesis. Nausea was the most frequently reported symptom. Nausea was generally transient. Most occurrences of nausea did not lead to permanent discontinuation of Wegovy®."
+      ],
+      "relevance": 0.8939554914764196,
+      "n": 21
+    },
+    {
+      "id": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12642075/",
+      "title": "The adverse effects associated with semaglutide use in patients at increased risk of cardiovascular events: a systematic review with meta-analysis and Trial Sequential Analysis - PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12642075/",
+      "publicationDate": "2025-11-24",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "![BMC Medicine logo](https://cdn.ncbi.nlm.nih.gov/pmc/banners/logo-bmcmedicine.png)\n\nBMC Med. 2025 Nov 24;23:654. doi: [10.1186/s12916-025-04486-0](https://doi.org/10.1186/s12916-025-04486-0)\n\n# The adverse effects associated with semaglutide use in patients at increased risk of cardiovascular events: a systematic review with meta-analysis and Trial Sequential Analysis\n\n[Christina Dam Bjerregaard Sillassen](https://pubmed.ncbi.nlm.nih.gov/?term=\"Sillassen%20CDB\"[Author])1,2,3,✉, [Johanne Juul Petersen](https://pubmed.ncbi.nlm.nih.gov/?term=\"Petersen%20JJ\"[Author])1, [Pascal Faltermeier](https://pubmed.ncbi.nlm.nih.gov/?term=\"Faltermeier%20P\"[Author])1,3, [Delal Yucel](https://pubmed.ncbi.nlm.nih.gov/?term=\"Yucel%20D\"[Author])1, [Faiza Siddiqui](https://pubmed.ncbi.nlm.nih.gov/?term=\"Siddiqui%20F\"[Author])1, [Rebecca Kjær Andersen](https://pubmed.ncbi.nlm.nih.gov/?term=\"Andersen%20RK\"[Author])1, [Leonardo Graever](https://pubmed.ncbi.nlm.nih.gov/?term=\"Graever%20L\"[Author])4,5, [Jonas Leth Bjerg](https://pubmed.ncbi.nlm.nih.gov/?term=\"Bjerg%20JL\"[Author])1, [Caroline Barkholt Kamp](https://pubmed.ncbi.nlm.nih.gov/?term=\"Kamp%20CB\"[Author])1, [Johannes Grand](https://pubmed.ncbi.nlm.nih.gov/?term=\"Grand%20J\"[Author])6, [Helena Dominguez](https://pubmed.ncbi.nlm.nih.gov/?term=\"Dominguez%20H\"[Author])4,7, [Anne Frølich](https://pubmed.ncbi.nlm.nih.gov/?term=\"Fr%C3%B8lich%20A\"[Author])8,9, [Peter Gæde](https://pubmed.ncbi.nlm.nih."
+      ],
+      "relevance": 0.8897984190784863,
+      "n": 22
+    },
+    {
+      "id": "https://medlineplus.gov/druginfo/meds/a618008.html",
+      "title": "Semaglutide Injection: MedlinePlus Drug Information",
+      "url": "https://medlineplus.gov/druginfo/meds/a618008.html",
+      "publicationDate": "2026-05-15",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "Semaglutide Injection\n\npronounced as (sem\" a gloo' tide)\n\n- Why is this medication prescribed?\n- How should this medicine be used?\n- Other uses for this medicine\n- What special precautions should I follow?\n- What special dietary instructions should I follow?\n- What should I do if I forget a dose?\n- What side effects can this medication cause?\n- What should I know about storage and disposal of this medication?\n- In case of emergency/overdose\n- What other information should I know?\n- Brand names\n\n## IMPORTANT WARNING:\n\nSemaglutide injection may increase the risk that you will develop thyroid gland tumors, including a type of thyroid cancer. Semaglutide injection caused thyroid tumors in rats. It is not known if this medication increases the risk of tumors in humans. Tell your doctor if you or anyone in your family has or has ever had thyroid tumors, thyroid cancer, or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2; condition that causes tumors in more than one gland in the body). If so, your doctor will probably tell you not to use semaglutide injection. If you experience any of the following symptoms, call your doctor immediately: a lump or swelling in the neck; hoarseness; difficulty swallowing; or shortness of breath.\n\nKeep all appointments with your doctor and the laboratory. Your doctor may order certain tests to check your body's response to semaglutide injection.\n\nYou will be given the Medication Guide."
+      ],
+      "relevance": 0.8217761608903617,
+      "n": 23
+    }
+  ]
+}

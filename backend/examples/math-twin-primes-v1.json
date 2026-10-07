@@ -1,0 +1,392 @@
+{
+  "id": "4ddcc0e1-bedf-4f81-ad49-28e3be3c6b30",
+  "status": "completed",
+  "error": null,
+  "createdAt": "2026-10-07T11:27:35.103Z",
+  "startedAt": "2026-10-07T11:27:35.103Z",
+  "finishedAt": "2026-10-07T11:27:43.110Z",
+  "prompt": "recent progress on bounded gaps between primes and the twin prime conjecture",
+  "cost": 0.027,
+  "budget": 0.25,
+  "events": [
+    {
+      "id": 0,
+      "at": "2026-10-07T11:27:35.103Z",
+      "message": "searching literature: recent progress on bounded gaps between primes and the twin prime conjecture",
+      "group": "literature",
+      "query": "recent progress on bounded gaps between primes and the twin prime conjecture"
+    },
+    {
+      "id": 1,
+      "at": "2026-10-07T11:27:35.103Z",
+      "message": "searching web: recent progress on bounded gaps between primes and the twin prime conjecture",
+      "group": "web",
+      "query": "recent progress on bounded gaps between primes and the twin prime conjecture"
+    },
+    {
+      "id": 2,
+      "at": "2026-10-07T11:27:35.103Z",
+      "message": "searching preprints: recent progress on bounded gaps between primes and the twin prime conjecture",
+      "group": "preprints",
+      "query": "recent progress on bounded gaps between primes and the twin prime conjecture"
+    },
+    {
+      "id": 3,
+      "at": "2026-10-07T11:27:35.103Z",
+      "message": "searching trials: recent progress on bounded gaps between primes and the twin prime conjecture",
+      "group": "trials",
+      "query": "recent progress on bounded gaps between primes and the twin prime conjecture"
+    },
+    {
+      "id": 4,
+      "at": "2026-10-07T11:27:35.724Z",
+      "message": "found 7 in literature",
+      "group": "literature",
+      "query": "recent progress on bounded gaps between primes and the twin prime conjecture",
+      "count": 7
+    },
+    {
+      "id": 5,
+      "at": "2026-10-07T11:27:36.857Z",
+      "message": "found 0 in trials",
+      "group": "trials",
+      "query": "recent progress on bounded gaps between primes and the twin prime conjecture",
+      "count": 0
+    },
+    {
+      "id": 6,
+      "at": "2026-10-07T11:27:37.333Z",
+      "message": "found 8 in preprints",
+      "group": "preprints",
+      "query": "recent progress on bounded gaps between primes and the twin prime conjecture",
+      "count": 8
+    },
+    {
+      "id": 7,
+      "at": "2026-10-07T11:27:43.108Z",
+      "message": "found 8 in web",
+      "group": "web",
+      "query": "recent progress on bounded gaps between primes and the twin prime conjecture",
+      "count": 8
+    },
+    {
+      "id": 8,
+      "at": "2026-10-07T11:27:43.109Z",
+      "message": "done searching"
+    },
+    {
+      "id": 9,
+      "at": "2026-10-07T11:27:43.109Z",
+      "message": "crafting report from 18 unique sources"
+    }
+  ],
+  "report": "# recent progress on bounded gaps between primes and the twin prime conjecture\n\n1. [Entropy, Periodicity and the Probability of Primality](https://pubmed.ncbi.nlm.nih.gov/PMC12732191) (2025, valyu/valyu-pubmed)\n2. [A note on equidistribution on a product of Shimura curves and André–Oort](https://pubmed.ncbi.nlm.nih.gov/PMC13346247) (2026, valyu/valyu-pubmed)\n3. [Applications of representation theory and of explicit units to Leopoldt’s conjecture](https://pubmed.ncbi.nlm.nih.gov/PMC12995976) (2026, valyu/valyu-pubmed)\n4. [The shifted convolution problem in function fields](https://pubmed.ncbi.nlm.nih.gov/PMC12999764) (2026, valyu/valyu-pubmed)\n5. [number theory - Twin Prime conjecture current status - Mathematics Stack Exchange](https://math.stackexchange.com/questions/756151/twin-prime-conjecture-current-status) (2014, web)\n6. [[1409.8361] The “bounded gaps between primes” Polymath project - a retrospective](https://ar5iv.labs.arxiv.org/html/1409.8361) (2026, web)\n7. [Together and Alone, Closing the Prime Gap | Quanta Magazine](https://www.quantamagazine.org/mathematicians-team-up-on-twin-primes-conjecture-20131119/) (2020, web)\n8. [Progress on Twin Primes | Not Even Wrong](https://www.math.columbia.edu/~woit/wordpress/?p=6425) (2013, web)\n9. [(PDF) New developments on the twin prime problem and generalizations](https://www.researchgate.net/publication/280789560_New_developments_on_the_twin_prime_problem_and_generalizations) (2014, web)\n10. [BOUNDED GAPS BETWEEN PRIMES ANDREW GRANVILLE](https://dms.umontreal.ca/~andrew/CurrentEventsArticle.pdf) (2013, web)\n11. [Bounded Gaps Between Primes](https://www.cambridge.org/core/books/bounded-gaps-between-primes/600471EA94F9E10A837A8FFF325448DF) (2021, web)\n12. [Prime Gap Grows After Decades-Long Lull | Quanta Magazine](https://www.quantamagazine.org/mathematicians-prove-conjecture-on-big-prime-number-gaps-20141210/) (2017, web)\n13. [A Generalized Elliott-Halberstam Conjecture Implying the Twin Prime Hypothesis](https://arxiv.org/abs/2511.14810) (2025, valyu/valyu-arxiv)\n14. [Density-based structural frameworks for prime numbers, prime gaps, and Euler products](https://arxiv.org/abs/2601.16193) (2026, valyu/valyu-arxiv)\n15. [Mapping Mathematical Hardness: Machine-Assisted Conjecture Discovery and the Quantification of Non-Triviality](https://arxiv.org/abs/2606.14804) (2026, valyu/valyu-arxiv)\n16. [An intermediate conjecture between Goldbach and Dubner: every even number is the sum of a prime and a twin prime](https://arxiv.org/abs/2608.02381) (2026, valyu/valyu-arxiv)\n17. [Gaps in Multiplicative Sidon Sets II](https://arxiv.org/abs/2606.07428) (2026, valyu/valyu-arxiv)\n18. [Theorem $(1+1.9)$ on the Goldbach Conjecture](https://arxiv.org/abs/2606.05224) (2026, valyu/valyu-arxiv)",
+  "sources": [
+    {
+      "id": "10.3390/e27121204",
+      "title": "Entropy, Periodicity and the Probability of Primality",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC12732191",
+      "authors": [
+        "Grenville J. Croll",
+        "Boris Ryabko"
+      ],
+      "publicationDate": "2025-11-27",
+      "doi": "10.3390/e27121204",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Entropy, Periodicity and the Probability of Primality\n\nAuthors: Grenville J. Croll, Boris Ryabko\n\nThe distribution of prime numbers has long been viewed as a balance between order and randomness. In this work, we investigate the relationship between entropy, periodicity, and primality through the computational framework of the binary derivative. We prove that periodic numbers are composite in all bases except for a single trivial case and establish a set of twelve theorems governing the behavior of primes and composites in terms of binary periodicity. Building upon these results, we introduce a novel scale-invariant entropic measure of primality, denoted p(*s*′), which provides an exact and unconditional entropic probability of primality derived solely from the periodic structure of a binary number and its binary derivatives. We show that p(*s*′) is quadratic, statistically well-defined, and strongly correlated with our earlier BiEntropy measure of binary disorder. Empirical analyses across several numerical ranges demonstrate that the variance in prime density relative to quadratic expectation is small, binormal, and constrained by the central limit theorem. These findings reveal a deep connection between entropy and the randomness of the primes, offering new insights into the entropic structure of number theory, with implications for the Riemann Hypothesis, special classes of primes, and computational applications in cryptography.",
+      "excerpts": [
+        "### 6.7. Twin, Fermat, and Mersenne Primes\nApplication of p(*s*′) to special prime classes demonstrates its consistency with established prime distributions. Under the equidistribution of primes across binary derivatives (Theorem 11), the expected and actual frequencies of twin primes before and after an arbitrary threshold *z* (which might correspond to the last twin prime) must remain in agreement, thereby supporting the twin primes conjecture within the entropic framework. Similarly, Fermat and Mersenne primes arise naturally at densities consistent with p(*s*′) and the Prime Number Theorem, which we demonstrated in the appendices of our prior work. The entropic formulation thus accommodates these prime families seamlessly, reinforcing the generality of p(*s*′) as a unifying descriptor of primality.\n\n### 6.8. The Riemann Hypothesis and Skewes’ Number\nThe analysis of p(*s*′) provides a complementary entropic interpretation of the Riemann Hypothesis (RH) and related prime-distribution phenomena. The variance of the difference π(*s*) − Li(*s*) is shown to diminish asymptotically as *s* → ∞, implying a tighter convergence than the classical von Koch equivalence π(*s*) = Li(*s*) + O(√*s* log *s*) ⇔ RH. This behavior arises from the stochastic fluctuations in prime density across p(*s*′) partitions, consistent with Littlewood’s theorem [25] that the sign of π(*s*) − Li(*s*) changes infinitely often beyond Skewes’ number [26]....",
+        "## 1. Introduction\nEntropy provides a fundamental framework for quantifying order, disorder, and randomness across natural and computational systems. Since Shannon’s original formulation [1], entropy has been widely applied to measure the uncertainty and information content of symbolic sequences, with extensions into fields as diverse as physics, cryptography, biology, and algorithmic complexity.\nRecent research has increasingly explored connections between entropy and prime distribution. Kontoyiannis [2] demonstrated that elementary information-theoretic arguments can provide new proofs for classical results in number theory, including Chebyshev’s theorem on prime density, by quantifying how many bits of information about an integer we learn from each of its prime factors. Billingsley’s [3] influential 1973 work established probabilistic connections between prime numbers and Brownian motion, introducing entropy-based methods to number theory, an approach that earned the Lester R. Ford Award for mathematical exposition. Wolf [4] and Szpiro [5] investigated fractal and statistical properties of prime gaps, revealing 1/f noise patterns and hidden structure in prime distributions through entropy-related analysis. More recently, quantum information approaches have identified prime numbers through singular behaviors in linear entanglement entropy [6]. These studies collectively suggest that entropic approaches provide valuable complementary insights into the structure and apparent"
+      ],
+      "relevance": 0.745400611002645,
+      "citationCount": 0,
+      "n": 1
+    },
+    {
+      "id": "10.1007/s12215-026-01450-6",
+      "title": "A note on equidistribution on a product of Shimura curves and André–Oort",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC13346247",
+      "authors": [
+        "Francesco Maria Saettone"
+      ],
+      "publicationDate": "2026-07-09",
+      "doi": "10.1007/s12215-026-01450-6",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: A note on equidistribution on a product of Shimura curves and André–Oort\n\nAuthors: Francesco Maria Saettone\n\nIn this short note we show that Galois orbits of CM points equidistribute on a product of  $r\\geqslant 2$ non-isomorphic Shimura curves by applying the adelic toral-packet equidistribution theorem of Aka-Luethi-Michel-Wieser. As a consequence, we deduce André-Oort for the product of those curves, previously studied by Edixhoven and Yafaev, replacing GRH by a Linnik-type splitting condition at two auxiliary primes.",
+      "excerpts": [
+        "## Introduction\nNowadays, despite being commonly referred to as a *conjecture*, the André-Oort conjecture is a theorem by the work of many (see [19] for a recent survey), proved unconditionally via the Pila-Zannier strategy, which was first introduced for a new proof of Manin-Mumford in [16] and then exploited by Pila for the first unconditional proof of André-Oort for an arbitrary product of modular curves in [15]. Nonetheless, other conditional results in the case of product of two modular curves were obtained earlier, under GRH, by Edixhoven in [8] and in [9]. Under the same hypothesis, the two dimensional case was extended to Shimura curves by Yafaev in [20].\nIn this note we consider the case of  $r\\geqslant 2$*non*-isomorphic Shimura curves  ${\\mathcal{S}}_1,\\dots ,{\\mathcal{S}}_r$, and, by an equidistribution result for special points on their product\n${\\mathcal{S}}_1\\times \\dots \\times{\\mathcal{S}}_r$\nwe obtain as a corollary the corresponding case of the André-Oort conjecture dropping GRH and assuming instead a mild congruence condition on two auxiliary primes (also known as a Linnik-type condition). The equidistribution input is the theorem of Aka-Luethi-Michel-Wieser [2, Theorem 1.8], which in turn relies on Einsiedler-Lindenstrauss’ joining theorem [10] together with some character-spectrum analysis.\nErgodically, the situation we consider is especially simple: since the curves  ${\\mathcal{S}}_1,\\dots ,{\\mathcal{S}}_r$ are pairwise non-isomorphic, the product  ${\\ma"
+      ],
+      "relevance": 0.6016446804779434,
+      "citationCount": 0,
+      "n": 2
+    },
+    {
+      "id": "10.1007/s40993-026-00717-2",
+      "title": "Applications of representation theory and of explicit units to Leopoldt’s conjecture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC12995976",
+      "authors": [
+        "Fabio Ferri",
+        "Henri Johnston"
+      ],
+      "publicationDate": "2026-03-17",
+      "doi": "10.1007/s40993-026-00717-2",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: Applications of representation theory and of explicit units to Leopoldt’s conjecture\n\nAuthors: Fabio Ferri, Henri Johnston\n\nLet *L*/*K* be a Galois extension of number fields and let  $G=\\textrm{Gal}L/K$. We show that under certain hypotheses on *G*, for a fixed prime number *p*, Leopoldt’s conjecture at *p* for certain proper intermediate fields of *L*/*K* implies Leopoldt’s conjecture at *p* for *L*. We also obtain relations between the Leopoldt defects of intermediate fields of *L*/*K*. By applying a result of Buchmann and Sands together with an explicit description of units and a special case of the above results, we show that given any finite set of prime numbers  $\\mathcal{P}$, there exists an infinite family  $\\mathcal{F}$ of totally real  $S_{3}$-extensions of  $\\mathbb{Q}$ such that Leopoldt’s conjecture for *F* at *p* holds for every  $F \\in \\mathcal{F}$ and  $p \\in \\mathcal{P}$.",
+      "excerpts": [
+        "### Leopoldt’s conjecture from subfields II\nLet *L*/*K* be a Galois extension of number fields and let  $G=\\textrm{Gal}L/K$. Let *p* be a prime number. We now apply the results on (generalised) useful idempotent relations to the Leopoldt kernel  $\\mathcal{L}L,p$, and show that in many situations  $\\textrm{Leo}L,p$ can be deduced from  $\\textrm{Leo}F,p$ for certain intermediate fields *F* of *L*/*K*. The proofs do not require any knowledge of the  $\\mathbb{Q}_{p}[G]$-module structure of  $\\mathbb{Q}_{p}\\otimes _{\\mathbb{Z}}\\mathcal{O}_{L}^{\\times}$, but rather just use the fact that  $\\mathbb{Q}_{p}\\otimes _{\\mathbb{Z}}\\mathcal{O}_{L}^{\\times}$ and  $\\mathcal{L}L,p$ are  $\\mathbb{Q}_{p}[G]$-modules. Some results also use previously known cases of Leopoldt’s conjecture. Note that none of the results depend on the choice of prime number *p*.\n\n#### Theorem 4.22\nLet *L*/*K* be a Galois extension of number fields and let  $G=\\textrm{Gal}L/K$. Suppose that *G* has a generalised useful idempotent relation with respect to a set of subgroups  $\\mathcal{H}$. Let  $\\mathcal{I}$ be a subset of  $\\mathcal{H}$ such that  $1 \\notin \\mathcal{I}$ and for every  $H \\in \\mathcal{H}$ there exist  $g \\in G$ and  $I \\in \\mathcal{I}$ such that  $gIg^{-1}\\le H$. Let *p* be a prime number. Then  $\\textrm{Leo}L,p$ holds if and only if  $\\textrm{Leo}L^{I},p$ holds for every  $I \\in \\mathcal{I}$.\n\n#### Proof\nThis follows from Corollary [FPar42] and Lemma [FPar17].  $\\square$\n\n#### Corollary 4.23\n...",
+        "## Introduction\nLet *p* be a prime number and let *K* be a number field. In the case that  $K/\\mathbb{Q}$ is abelian, Leopoldt [35] defined a *p*-adic regulator  $R_{p}K$ and asked whether it is always the case that  $R_{p}K \\ne 0$. For an arbitrary number field *K*, Leopoldt’s conjecture has many equivalent formulations and is of great interest due to its connections with Iwasawa theory and Galois cohomology (see [43, Chapters X and XI], for example).\nWe now recall a formulation that is convenient for our purposes. Let  $\\mathcal{O}_{K}$ denote the ring of integers of *K* and let  $\\mathcal{O}_{K}^{\\times}$ denote its group of units. For a finite place *v* of *K*, let  $K_{v}$ denote the completion of *K* at *v*, let  $U_{K_{v}}$ denote the group of units of its valuation ring  $\\mathcal{O}_{K_{v}}$, and let  $U_{K_{v}}^{1}$ denote the subgroup of principal units. Let  $S_{p}K$ denote the set of places of *K* above *p*. For a multiplicative abelian group *A*, define the *p*-adic completion of *A* to be\n$\\widehat{A}:= \\textstyle{\\varprojlim _{n}}A/A^{p^{n}}.$\nThen  $\\widehat{\\mathcal{O}_{K}^{\\times}}= \\mathbb{Z}_{p}\\otimes _{\\mathbb{Z}}\\mathcal{O}_{K}^{\\times}$ and for  $v \\in S_{p}K$, there is an isomorphism  $U_{K_{v}}^{1}\\cong \\widehat{U}_{K_{v}}$ induced by the inclusion  $U_{K_{v}}^{1}\\subseteq U_{K_{v}}$. Therefore, after taking *p*-adic completions, the diagonal embedding  $\\mathcal{O}_{K}^{\\times}\\hookrightarrow \\prod _{v \\in S_{p}K}U_{K_{v}}$ gives rise to a canonica"
+      ],
+      "relevance": 0.5714781754083669,
+      "citationCount": 0,
+      "n": 3
+    },
+    {
+      "id": "10.1007/s00208-026-03340-9",
+      "title": "The shifted convolution problem in function fields",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC12999764",
+      "authors": [
+        "Alexandra Florea",
+        "Matilde Lalín",
+        "Amita Malik",
+        "Anurag Sahay"
+      ],
+      "publicationDate": "2026-03-19",
+      "doi": "10.1007/s00208-026-03340-9",
+      "provider": "valyu/valyu-pubmed",
+      "sourceType": "paper",
+      "abstract": "Title: The shifted convolution problem in function fields\n\nAuthors: Alexandra Florea, Matilde Lalín, Amita Malik, Anurag Sahay\n\nWe study the shifted convolution problem for the divisor function in function fields in the large degree limit, that is, the average value of  $df df+h$ where *f* runs over monic polynomials in  $\\mathbb{F}_q[T]$ of a given degree, and *h* is a given monic polynomial. We prove an asymptotic formula in the range  $\\deg h < 2-\\epsilon \\deg f$. We also consider mixed correlations and self-correlations of  $r_\\chi = 1 \\star \\chi$, the convolution of 1 with a Dirichlet character mod  $\\ell$, where  $\\ell$ is a monic irreducible polynomial, proving asymptotic formulae in various ranges. This includes the case of quadratic characters, which yields results about correlations of norm-counting functions of quadratic extensions of  $\\mathbb{F}_q[T]$. A novel feature of our work is a Voronoi summation formula (equivalently, a functional equation for the Estermann function) in  $\\mathbb{F}_q[T]$ which was not previously available.",
+      "excerpts": [
+        "### Remark 1.3\nThe coefficient of  $n^2q^n$ above is  $\\left 1-\\frac{1}{q}\\right \\sum _{\\begin{array}{c}g|h \\end{array}}\\frac{1}{|g|}=\\frac{1}{\\zeta _{\\mathbb{F}_q[T]}2}\\sigma _{-1}h$, where  $\\zeta _{\\mathbb{F}_q[T]}s$ is given by ((3-1)$11$). This corresponds to the leading coefficient of  $P_2\\log X;h$ in the number field case. Note that there is a transition in the asymptotic formula when  $\\deg h =[n/2]$ (as we have an exact formula when  $\\deg h <[n/2]$ and an error term when  $[n/2]\\leqslant \\deg h \\leqslant n$). Note also that there is an additional transition regime when  $\\deg h>n$, as  $d =\\deg h$ in this case in the asymptotic formula in Theorem [FPar1].\nWe now turn to generalizations. In  $\\mathbb{Z}$, progress on problems like ((3-2)$1$) goes hand in hand with similar progress about the sums-of-two-squares function\n$\\begin{aligned}rn = \\#{a,b \\in \\mathbb{Z}^2: a^2+b^2 = n}= 4 \\sum _{d \\mid n}\\chi _{-4}d. \\end{aligned}$\nwhere  $\\chi _{-4}$ is the non-trivial character modulo 4. The shifted convolution of *r*(*n*) with  $rn+h$ was first studied by Estermann [25]. Spectral methods were used by Iwaniec [34, Theorem 12.5], Chamizo [14, 15], and Aryan [3] with Chamizo achieving the best general result in the range  $h\\ll X^{2/1+2\\vartheta -\\epsilon}$ where  $\\vartheta \\leqslant \\frac{7}{64}$ is the best known exponent towards the Ramanujan-Petersson conjecture for Maass forms.\n...",
+        "### Remark 1.11\nThe only analogue of Theorems [FPar8], [FPar9], and [FPar10] in the integer setting (with or without smoothing) that we are aware of is an old work of Motohashi [38] using the dispersion method, where he studies the shifted convolution of *r*(*n*) and *d*(*n*). Since our results rely only on the Weil bound and not on spectral theory, we see no obstructions to translating our theorems to  $\\mathbb{Z}$.\nLet us now discuss the proof of Theorem [FPar1]. We follow the strategy of Estermann: we open the divisor function  $df+h$ with a divisor switching trick to restrict to divisors  $g \\mid f+h$ satisfying  $\\deg g \\leqslant d/2$. Thus, after swapping the order of summation, we need to understand\n$\\begin{aligned}\\sum _{\\begin{array}{c}f \\in \\mathcal{M}_n \\ f \\equiv -h \\hspace{0.05em}\\textrm{mod}\\,g \\end{array}}df \\text{for}\\deg g \\leqslant d/2. \\end{aligned}$\nOne may now use additive characters to detect the congruence. As usual, the zero frequency gives a dominant contribution and the goal is to bound the nonzero frequencies\n$**5**\\begin{aligned}\\sum _{f \\in \\mathcal{M}_n}dfe\\bigg \\frac{af}{g}\\bigg \\text{for}\\deg a < \\deg g \\leqslant d/2 \\text{and}a,g = 1. \\end{aligned}$\nHere  $e\\cdot $ is the additive character defined in Sect. [Sec3]. It is now natural to look for a Voronoi-type summation formula for ((11-1)$5$), which was hitherto unavailable. The main new contribution in this work is the formulation and derivation of such formulae (see Sects. [Sec7]-[Sec11])..."
+      ],
+      "relevance": 0.5632462350598888,
+      "citationCount": 0,
+      "n": 4
+    },
+    {
+      "id": "https://math.stackexchange.com/questions/756151/twin-prime-conjecture-current-status",
+      "title": "number theory - Twin Prime conjecture current status - Mathematics Stack Exchange",
+      "url": "https://math.stackexchange.com/questions/756151/twin-prime-conjecture-current-status",
+      "publicationDate": "2014-04-16",
+      "provider": "web",
+      "sourceType": "forum",
+      "excerpts": [
+        "# Twin Prime conjecture current status\nCan someone help me with a link to read about the status of the Twin Prime conjecture. I have browse on the internet and have read some articles but still I have no clue of the updated status of Twin Prime conjecture. Can someone explain to me the current status of the Twin Prime conjecture whether it is solved or it is still widely open.\n\n## 1 Answer 1\nThe wikipedia entry is reasonably coherent, and is pretty up-to-date.\n\nThe twin prime conjecture itself remains open, but there has been recent remarkable progress on slightly weaker results. Namely, Y. Zhang proved that there is an infinite sequence of primes $p_n$ such that $p_{n+1} - p_n$ is uniformly bounded. (This result is referred to as bounded prime gaps.)\n\nZhang's result was significantly strengthened by J. Maynard. This article of A. Granville is fairly up-to-date (it appeared in Nov. 2013), and discusses Zhang's and Maynard's work. The paper becomes technical, but the abstract and introduction are fairly accessible, and included a lot of history, which is current all the way up to Nov. 2013.\n\nAs Granville discusses, even the best possible tightening of Zhang's and Maynard's arguments wouldn't improve the bound on prime gaps beyond $12$ (as far as anyone knows), while twin primes states that this bound should be $2$. So it seems that, despite this amazing progress, the twin primes conjecture is still quite open."
+      ],
+      "relevance": 0.9587391664539453,
+      "n": 5
+    },
+    {
+      "id": "https://ar5iv.labs.arxiv.org/html/1409.8361",
+      "title": "[1409.8361] The “bounded gaps between primes” Polymath project - a retrospective",
+      "url": "https://ar5iv.labs.arxiv.org/html/1409.8361",
+      "publicationDate": "2026-10-07",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "# The “bounded gaps between primes” Polymath project - a retrospective\n\nD.H.J. PolymathAddress:http://michaelnielsen.org/polymath1/index.php\n\n###### Abstract.\n\nFor any m≥1m\\geq 1, let HmH_{m} denote the quantity Hm:=lim infn→∞(pn+m−pn)H_{m}:=\\liminf_{n\\to\\infty}(p_{n+m}-p_{n}), where pnp_{n} denotes the nthn^{\\operatorname{th}} prime; thus for instance the twin prime conjecture is equivalent to the assertion that H1H_{1} is equal to two. In a recent breakthrough paper of Zhang, a finite upper bound was obtained for the first time on H1H_{1}; more specifically, Zhang showed that H1≤70 000 000H_{1}\\leq$70\\,000\\,000$.\n\nAlmost immediately after the appearance of Zhang’s paper, improvements to the upper bound on H1H_{1} were made. In order to pool together these various efforts, a *Polymath project* was formed to collectively examine all aspects of Zhang’s arguments, and to optimize the resulting bound on H1H_{1} as much as possible. After several months of intensive activity, conducted online in blogs and wiki pages, the upper bound was improved to H1≤4680H_{1}\\leq$4680$. As these results were being written up, a further breakthrough was introduced by Maynard, who found a simpler sieve-theoretic argument that gave the improved bound H1≤600H_{1}\\leq$600$, and also showed for the first time that HmH_{m} was finite for all mm."
+      ],
+      "relevance": 0.9522440908773476,
+      "n": 6
+    },
+    {
+      "id": "https://www.quantamagazine.org/mathematicians-team-up-on-twin-primes-conjecture-20131119/",
+      "title": "Together and Alone, Closing the Prime Gap | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/mathematicians-team-up-on-twin-primes-conjecture-20131119/",
+      "publicationDate": "2020-07-20",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "Together and Alone, Closing the Prime Gap\n\nWorking on the centuries-old twin primes conjecture, two solitary researchers and a massive collaboration have made enormous advances over the last six months.\n\nOn May 13, an obscure mathematician — one whose talents had gone so unrecognized that he had worked at a Subway restaurant to make ends meet — garnered worldwide attention and accolades from the mathematics community for [settling a long-standing open question about prime numbers](https://www.quantamagazine.org/20130519-unheralded-mathematician-bridges-the-prime-gap/), those numbers divisible by only one and themselves. Yitang Zhang, a lecturer at the University of New Hampshire, showed that even though primes get increasingly rare as you go further out along the number line, you will never stop finding pairs of primes separated by at most 70 million. His finding was the first time anyone had managed to put a finite bound on the gaps between prime numbers, representing a major leap toward proving the centuries-old twin primes conjecture, which posits that there are infinitely many pairs of primes separated by only two (such as 11 and 13).\n\nIn the months that followed, Zhang found himself caught up in a whirlwind of activity and excitement: He has lectured on his work at many of the nation’s preeminent universities, has received offers of jobs from top institutions in China and Taiwan and a visiting position at the Institute for Advanced Study in Princeton, N.J."
+      ],
+      "relevance": 0.9401920570964972,
+      "n": 7
+    },
+    {
+      "id": "https://www.math.columbia.edu/~woit/wordpress/?p=6425",
+      "title": "Progress on Twin Primes | Not Even Wrong",
+      "url": "https://www.math.columbia.edu/~woit/wordpress/?p=6425",
+      "publicationDate": "2013-11-22",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "[← Anderson 90th](https://www.math.columbia.edu/~woit/wordpress/?p=6419) [Controversy over Yau-Tian-Donaldson →](https://www.math.columbia.edu/~woit/wordpress/?p=6430)\n\n# Progress on Twin Primes\n\nPosted on [November 20, 2013](https://www.math.columbia.edu/~woit/wordpress/?p=6425) by [woit](https://www.math.columbia.edu/~woit/wordpress/?author=2)\n\nThere’s a new paper out on the arXiv last night, [Small gaps between primes](http://arxiv.org/abs/1311.4600), by James Maynard, which brings the bound on the size of gaps between primes down to 600. This uses some new methods, beating out the Polymath8 project, which has been improving Zhang’s original bound of 70,000,000, getting it down to 4680.\n\nTo follow the Polymath8 project, the place to look is Terence Tao’s blog, [here](http://terrytao.wordpress.com/category/question/polymath/). They’re working on a paper, with the current draft version available [here](https://www.dropbox.com/sh/j2r8yia6lkzk2gv/wjFF8XoZVG/ek/newgap.pdf). This is a remarkable collaborative project bringing together a sizable group of mathematicians in an unusual way.\n\nFor more about this, see this [expository article by Andrew Granville](http://www.dms.umontreal.ca/~andrew/CurrentEventsArticle.pdf), which is pre-Maynard. At Quanta magazine, Erica Klarreich has an[excellent long popular article](https://www.simonsfoundation.org/quanta/20131119-together-and-alone-closing-the-prime-gap/) telling the story to date, including that of Maynard’s new result."
+      ],
+      "relevance": 0.9364043180135603,
+      "n": 8
+    },
+    {
+      "id": "https://www.researchgate.net/publication/280789560_New_developments_on_the_twin_prime_problem_and_generalizations",
+      "title": "(PDF) New developments on the twin prime problem and generalizations",
+      "url": "https://www.researchgate.net/publication/280789560_New_developments_on_the_twin_prime_problem_and_generalizations",
+      "publicationDate": "2014-01-01",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "# New developments on the twin prime problem and generalizations\n## Abstract\nInternational audience We give a short survey of some recent remarkable advances on the twin prime problem. Beginning with the breakthrough work of Zhang in May 2013, we trace the developments culminating in the work of Maynard and Tao in November 2013 that led to simplifications and numerical improvements of Zhang's work.\n\nNew developmen ts on the twin prime problem and\n\ngeneralizations\n\n We giv e a short survey of some recent remark able advances on the twin prime problem. Beginning with the breakthrough\n\nwork of Zhang in May 2013, we trace the dev elopments culminating in the work of Maynard and T ao in Novem ber 2013 that led\n\nto simpliﬁcations and numerical improvemen ts of Zhang’s work.\n\nrelatively unknown mathematician from the Univ ersity of New Hampshire, Yitang Zhang, submitted\n\na paper to the Annals of Mathematics. The paper claimed to prove that there are inﬁnitely many pairs\n\nof distinct primes (p, q) with |p−q|<7×107. This was a major step towards the celebrated twin prime\n\nas contributions from algebraic geometry that wen t in to certain estimates of exponential sums.\n\nIn October 2013, Maynard and T ao, independently devised another way to deduce the bounded\n\ngaps result which is muc h simpler to use and also dispenses with the non-trivial algebraic geometry\n\nthat was a key component of Zhang’s proof.\n\nbetter numerical results. The latest record is a bound of 246. That is, there are in"
+      ],
+      "relevance": 0.9326909089631705,
+      "n": 9
+    },
+    {
+      "id": "https://dms.umontreal.ca/~andrew/CurrentEventsArticle.pdf",
+      "title": "BOUNDED GAPS BETWEEN PRIMES ANDREW GRANVILLE",
+      "url": "https://dms.umontreal.ca/~andrew/CurrentEventsArticle.pdf",
+      "publicationDate": "2013-11-02",
+      "provider": "web",
+      "sourceType": "pdf",
+      "excerpts": [
+        "[PAGE 1]\nBOUNDED GAPS BETWEEN PRIMES\nANDREW GRANVILLE\n*Abstract. Recently, Yitang Zhang proved the existence of a ﬁnite bound B such thatthere are inﬁnitely many pairs pn, pn\u00001 of consecutive primes for which pn\u00001\u0001pn ¤ B.* This can be seen as a massive breakthrough on the subject of twin primes and other delicate questions about prime numbers that had previously seemed intractable. In this article we will discuss Zhang’s extraordinary work, putting it in its context in analytic number theory, and sketch a proof of his theorem. *Zhang even proved the result with B \u0010 70 000 000. A co-operative team, polymath8,collaborating only on-line, has been able to lower the value of B to 4680, and it seems* plausible that these techniques can be pushed somewhat further, though the limit of *these methods seem, for now, to be B \u0010 12.*\nContents\n1. Introduction 2\n2. *The distribution of primes, divisors and prime k-tuplets* 8\n3. Uniformity in arithmetic progressions 15\n4. Goldston-Pintz-Yıldırım’s argument 20\n5. Distribution in arithmetic progressions 27\n6. Preliminary reductions 32\n7. Complete exponential sums 36\n8. Incomplete exponential sums 39\n9. The Grand Finale 45\n10. Weaker hypotheses 52\n*1991 Mathematics Subject Classiﬁcation. 11P32.* To Yiliang Zhang, for showing that one can, no matter what. 1\n[PAGE 2]\n2 ANDREW GRANVILLE\n1. Introduction sec:intro\n1.1. Intriguing questions about primes."
+      ],
+      "relevance": 0.930421907777252,
+      "n": 10
+    },
+    {
+      "id": "https://www.cambridge.org/core/books/bounded-gaps-between-primes/600471EA94F9E10A837A8FFF325448DF",
+      "title": "Bounded Gaps Between Primes",
+      "url": "https://www.cambridge.org/core/books/bounded-gaps-between-primes/600471EA94F9E10A837A8FFF325448DF",
+      "publicationDate": "2021-09-20",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "# Bounded Gaps Between Primes\n## The Epic Breakthroughs of the Early Twenty-First Century\n### Book description\nSearching for small gaps between consecutive primes is one way to approach the twin primes conjecture, one of the most celebrated unsolved problems in number theory. This book documents the remarkable developments of recent decades, whereby an upper bound on the known gap length between infinite numbers of consecutive primes has been reduced to a tractable finite size. The text is both introductory and complete: the detailed way in which results are proved is fully set out and plenty of background material is included.\n\nThe reader journeys from selected historical theorems to the latest best result, exploring the contributions of a vast array of mathematicians, including Bombieri, Goldston, Motohashi, Pintz, Yildirim, Zhang, Maynard, Tao and Polymath8.  The material is suitable for graduate students and of interest to any mathematician curious about recent breakthroughs in the field.\n\n### Reviews\n‘The author has gathered almost 100 year's worth of progress on this family of problems into one volume, and this alone will be very helpful to anyone pursuing research in the field."
+      ],
+      "relevance": 0.9284058450050521,
+      "n": 11
+    },
+    {
+      "id": "https://www.quantamagazine.org/mathematicians-prove-conjecture-on-big-prime-number-gaps-20141210/",
+      "title": "Prime Gap Grows After Decades-Long Lull | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/mathematicians-prove-conjecture-on-big-prime-number-gaps-20141210/",
+      "publicationDate": "2017-10-06",
+      "provider": "web",
+      "sourceType": "website",
+      "excerpts": [
+        "Prime Gap Grows After Decades-Long Lull\n\nA year after tackling how close together prime number pairs can stay, mathematicians have now made the first major advance in 76 years in understanding how far apart primes can be.\n\n![](https://www.quantamagazine.org/wp-content/uploads/2014/12/ErdosTao_Front1.jpg)\n\nPaul Erdös, left, and Terence Tao in 1985. This August, Tao and four other mathematicians proved an old Erdös conjecture on large prime gaps.  Photo illustration by Olena Shmahalo / Quanta Magazine; original courtesy of Terence Tao\n\nIn May 2013, the mathematician Yitang Zhang launched what has proven to be a banner year and a half for the study of prime numbers, those numbers that aren’t divisible by any smaller number except 1. Zhang, of the [University of New Hampshire](http://www.math.unh.edu/faculty), showed for the first time that even though primes get increasingly rare as you go further out along the number line, you will never stop finding pairs of primes that are a bounded distance apart — [within 70 million, he proved](https://www.quantamagazine.org/20130519-unheralded-mathematician-bridges-the-prime-gap/). Dozens of [mathematicians then put their heads together](https://www.quantamagazine.org/20131119-together-and-alone-closing-the-prime-gap/) to improve on Zhang’s 70 million bound, bringing it down to 246 — within striking range of the celebrated twin primes conjecture, which posits that there are infinitely many pairs of primes that differ by only 2."
+      ],
+      "relevance": 0.920834403243855,
+      "n": 12
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2511.14810",
+      "title": "A Generalized Elliott-Halberstam Conjecture Implying the Twin Prime Hypothesis",
+      "url": "https://arxiv.org/abs/2511.14810",
+      "authors": [
+        "Trey Smith"
+      ],
+      "publicationDate": "2025-11-17",
+      "doi": "https://doi.org/10.48550/arxiv.2511.14810",
+      "provider": "valyu/valyu-arxiv",
+      "sourceType": "paper",
+      "abstract": "We propose a generalization of the Elliott-Halberstam conjecture concerning the distribution of prime pairs in arithmetic progressions. This conjecture, which we call the Generalized Elliott-Halberstam Conjecture for Shifted Convolutions (GEH-2), provides a level of distribution for correlations of the von Mangoldt function. We show that GEH-2 implies the twin prime conjecture, describe heuristic and analytic motivation, and discuss implications for prime gaps and k-tuple patterns.",
+      "excerpts": [
+        "## 1 Introduction\n\nThe twin prime conjecture asserts that there exist infinitely many primes p such that p + 2 is also prime. Despite dramatic breakthroughs on bounded gaps between primes [\\[10,](#page-4-0) [6,](#page-4-1) [7\\]](#page-4-2), the full conjecture remains unresolved.\n\nThe Elliott-Halberstam conjecture [\\[2\\]](#page-4-3) concerns the distribution of primes in arithmetic progressions. For x > 0, q ∈ N, and a ∈ Z, define\n\n(1-1)$\\theta(x; q, a) := \\sum_{\\substack{p \\le x \\pmod{q}}} \\log p,$\n\nand the corresponding error term\n\n(1-2)$E(x;q) := \\max_{(a,q)=1} \\left| \\theta(x;q,a) - \\frac{x}{\\varphi(q)} \\right|,$\n\nwhere φ(q) is Euler's totient function.\n\nConjecture 1.1 (Elliott-Halberstam, EH). For every 0 < ϑ < 1 and every A > 0,\n\n(1-3)$\\sum_{q \\le x^{\\vartheta}} \\max_{y \\le x} |E(y;q)| \\ll \\frac{x}{(\\log x)^A},$\n\nwhere the implied constant depends only on ϑ and A[1](#page-1-0) .\n\nEH implies bounded gaps between primes. However, it does not suffice to resolve the twin prime conjecture[2](#page-1-1) . The limitation is that bounded gaps follow from information on individual progressions, but actual twin primes require uniform control on prime pairs.\n\nHeuristic Motivation. Random models and large sieve estimates suggest that primes behave, in many respects, like random numbers with respect to residue classes (see, e.g., [\\[8\\]](#page-4-4)). These analogues support the plausibility of distribution conjectures such as EH—and motivate attempts to extend to prime pairs.\n\n..."
+      ],
+      "relevance": 0.8552186527240454,
+      "citationCount": 0,
+      "n": 13
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2601.16193",
+      "title": "Density-based structural frameworks for prime numbers, prime gaps, and Euler products",
+      "url": "https://arxiv.org/abs/2601.16193",
+      "authors": [
+        "Gregorio Vettori"
+      ],
+      "publicationDate": "2026-01-22",
+      "doi": "https://doi.org/10.48550/arxiv.2601.16193",
+      "provider": "valyu/valyu-arxiv",
+      "sourceType": "paper",
+      "abstract": "Title: Density-based structural frameworks for prime numbers, prime gaps, and Euler products\n\nAuthors: Gregorio Vettori\n\nAbstract. We develop a unified density-based framework for primality, coprimality, and prime pairs, and introduce an intrinsic normalized model for prime gaps constrained by the Prime Number Theorem. Within this setting, a structural tension between Hardy-Littlewood, Cram´er, and PNT predictions emerges, leading to quantitative estimates on the rarity of extreme gaps. Additive representations of even integers are reformulated as local density problems, yielding non-conjectural upper and lower bounds compatible with Hardy-Littlewood heuristics. Finally, the Riemann zeta function is analyzed via truncated Euler products, whose stability and oscillatory structure provide a coherent interpretation of the critical line and prime-based numerical criteria for the localization of non-trivial zeros.",
+      "excerpts": [
+        "## 2. An intrinsic framework for prime gaps\n\nThe Hardy-Littlewood conjecture predicts that the number of twin prime pairs not exceeding n satisfies the asymptotic relation\n\n(21) \n(3-1)$K_2(n) \\equiv 1 + \\sum_{j=4}^n I_2(j) \\sim 2C_2 \\int_2^n \\frac{dt}{(\\ln t)^2} \\sim \\frac{2C_2 n}{(\\ln n)^2},$\n\nwhere C<sup>2</sup> denotes the twin prime constant,\n\n(22) \n(3-2)$C_2 = \\prod_{p \\ge 3} \\left( 1 - \\frac{1}{(p-1)^2} \\right) \\approx 0.660161.$\n\nMotivated by this conjecture, we consider the problem in a more general setting by studying the distribution of prime gaps of fixed even size j among primes not exceeding n, with the aim of revealing structural constraints in the spacing of prime numbers.\n\nA classical heuristic model introduced by Cram´er suggests that the maximal size of prime gaps grows on the order of (ln n) 2 in the asymptotic regime [\\[4\\]](#page-28-5). Accordingly, we restrict attention to even gap sizes j satisfying\n\n(3-3)$2 \\le j \\le (\\ln n)^2,$\n\na range which includes twin primes and excludes exceptionally large gaps.\n\nEmpirically, counting the prime gaps equal to j among all primes not exceeding n yields approximately n/ ln n observations, corresponding to the number of primes up to n. Normalizing the frequency of each gap size by n, we define Pemp(j, n) as the empirical density of prime gaps of size j.\n\nUnder a naive random model in which primality occurs independently with probability 1/ ln n, the expected density of pairs of integers at distance j both being prime"
+      ],
+      "relevance": 0.8148594906730441,
+      "citationCount": 0,
+      "n": 14
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2606.14804",
+      "title": "Mapping Mathematical Hardness: Machine-Assisted Conjecture Discovery and the Quantification of Non-Triviality",
+      "url": "https://arxiv.org/abs/2606.14804",
+      "authors": [
+        "Madhuparna Das"
+      ],
+      "publicationDate": "2026-06-11",
+      "doi": "https://doi.org/10.48550/arxiv.2606.14804",
+      "provider": "valyu/valyu-arxiv",
+      "sourceType": "paper",
+      "abstract": "Machine-assisted mathematical discovery has been a long-standing challenge in machine learning and artificial intelligence. In recent years, we have seen tremendous progress with generative AI, yet its contribution to automated discovery in advanced mathematical research has been limited. One of the most difficult benchmarks in this context is the Birch test, which asks whether a machine can discover truly novel and non-trivial mathematical structures without human intervention. In this work, we particularly focus on the branch of automated conjecture discovery. We use HypothesiX, an automated conjecture mining agent and analyse its generated conjectures related to the distribution of twin primes to verify the conditions of the Birch test. Furthermore, note that automated discovery is now operating at scale, but verifying its non-triviality still depends on human evaluation. We propose a benchmark to quantify the non-triviality of machine-generated conjectures using the Mahalanobis distance within an embedding cluster of selected known mathematical conjectures. We also note that this quantified benchmark can be used as an error indication signal to localise the incorrectness of a new mathematical statement, which autoformalisers fail to verify due to their limitations in proof discovery capability.",
+      "excerpts": [
+        "conjecture. Threading through all of these methods, the unresolved parity problem is still the fundamental barrier preventing a proof of the twin prime conjecture or Goldbach's conjecture.\n\nConjecture 2.4 (Parity problem [25]). If A is a set whose elements are all products of an odd number of primes (or are all products of an even number of primes), then (without injecting additional ingredients), sieve theory is unable to provide non-trivial lower bounds on the size of A. Also, any upper bounds must be off from the truth by a factor of 2 or more.\n\nLeveraging the nonlinear and envelope structure of BQ(x), we propose a hybrid sieve approach that integrates the Maynard–Tao sieve, and outline how it may improve our understanding of the distribution of twin primes in arithmetic progressions beyond the existing literature. Furthermore, we present four open problems in this direction that are not machine-generated, but instead arise from our exploration of this new hybrid sieve. Finally, we formulate the parity problem in a quantitative manner for the first time within the framework of BQ(x) and its properties.\n\nThe purpose of the following argument is to show that the machine-generated definition of BQ(x), along with related conjectures, can spark new research and is of sufficient importance to make further progress in the known literature on unsolved problems.\n\n2.3.1. The hybrid sieve setup...."
+      ],
+      "relevance": 0.802046291701477,
+      "citationCount": 0,
+      "n": 15
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2608.02381",
+      "title": "An intermediate conjecture between Goldbach and Dubner: every even number is the sum of a prime and a twin prime",
+      "url": "https://arxiv.org/abs/2608.02381",
+      "authors": [
+        "Tushar Pandey"
+      ],
+      "publicationDate": "2026-08-03",
+      "doi": "https://doi.org/10.48550/arxiv.2608.02381",
+      "provider": "valyu/valyu-arxiv",
+      "sourceType": "paper",
+      "abstract": "Call a prime $t$ a twin member if $t-2$ or $t+2$ is prime, and let $\\mathcal{T}$ denote the set of twin members. We study the statement (S): every even $n \\ge 6$ can be written as $n = p + t$ with $p$ prime and $t \\in \\mathcal{T}$. Statement (S) sits between the Goldbach conjecture and Dubner's conjecture (every even $n > 4208$ is a sum of two twin members), and we observe that (S) is a single elementary statement implying both the Goldbach conjecture and the twin prime conjecture. We prove an orientation-rigidity theorem: for $n \\not\\equiv 0 \\pmod 3$, all twin members $t$ appearing in Goldbach partitions of $n$ (representations $n = p + q$ with $p, q$ prime) have the same orientation. According to $n \\bmod 3$, either every such $t$ has $t + 2$ prime, or every such $t$ has $t - 2$ prime, with degenerate exceptions confined to the primes $3$ and $5$. We verify (S) exhaustively for all even $n \\le 10^{12}$. In the course of the earlier run to $10^{11}$ we also re-derive the $33$ terms $\\ge 6$ of the Dubner exception list A007534 and re-verify Dubner's conjecture; those two by-products are established for $n \\le 10^{11}$ only, the extension to $10^{12}$ covering (S) alone. We compute the least twin witness $t_{\\min}(n) = \\min\\{t \\in \\mathcal{T} : n - t \\text{ prime}\\}$, whose maximum is $14549$ (at $n = 571714791706$), below $\\log^3 n$, and the density of twin-touching Goldbach partitions (those containing a twin member), which decays like $c(n)/\\log n$ and matches the Hardy-Littlewood prediction for the constant $c(n)$: measured median values $4.93$-$5.01$ against a predicted median of $4.97$-$4.98$ (the mean is $8C_2 \\approx 5.28$, with $C_2$ the twin-prime constant).",
+      "excerpts": [
+        "The following unconditional proposition, by contrast, is proved, and it shows how much a positive answer to Question [1](#page-6-0) would deliver.\n\nProposition 1. Suppose there are constants A, C > 0 such that tmin(n) is defined and satisfies tmin(n) ≤ C log<sup>A</sup> n for every even n ≥ 6. Then\n\n(3-8)$\\pi_{\\mathcal{T}}(z) \\gg_{A,C} z^{1/A}, \\quad \\text{where } \\pi_{\\mathcal{T}}(z) = \\#\\{t \\in \\mathcal{T} : t \\leq z\\}.$\n\nIn particular T is infinite, so any such bound implies the twin prime conjecture, with a power-of-z lower bound on the number of twin members.\n\nProof. Let z > C(log 10)<sup>A</sup> and put N = exp (z/C) <sup>1</sup>/A , so that C log<sup>A</sup> N = z and N > 10. By hypothesis every even n with 6 ≤ n ≤ N can be written n = p + t with p prime and t ∈ T , namely t = tmin(n) and p = n − t; here t ≤ C log<sup>A</sup> n ≤ C log<sup>A</sup> N = z and p < n ≤ N. Hence the addition map\n\n(3-9)$(p, t) \\longmapsto p + t, \\qquad \\{p \\text{ prime} : p \\le N\\} \\times \\{t \\in \\mathcal{T} : t \\le z\\},$\n\nhas image containing every even n in [6, N]. Its domain has exactly π(N) π<sup>T</sup> (z) elements, and the number of even n in [6, N] is ⌊N/2⌋ − 2 ≥ (N − 5)/2 ≥ N/4, the last step because N > 10. Counting the image by the domain therefore gives\n\n(3-10)$\\pi(N) \\, \\pi_{\\mathcal{T}}(z) \\geq \\frac{N}{4}.$\n\nBy Chebyshev's bound π(N) ≪ N/ log N, so\n\n(3-11)$\\pi_{\\mathcal{T}}(z) \\ge \\frac{N/4}{\\pi(N)} \\gg \\log N = \\left(\\frac{z}{C}\\right)^{1/A} \\gg_{A,C} z^{1/A}.$\n\n...",
+        "### 1 Introduction\n\nThe binary Goldbach conjecture (GC) asserts that every even n ≥ 4 is a sum of two primes [\\[5\\]](#page-8-0); it is verified to 4 · 10<sup>18</sup> [\\[9\\]](#page-8-1). Call a prime t a twin member if t − 2 or t + 2 is prime (equivalently, t belongs to a pair of primes differing by 2), and write T for the set of twin members. Throughout, p, q and ℓ denote primes, log is the natural logarithm, π(x) is the number of primes up to x, and O(·), o(·), ≍, ≫, ∼ carry their usual asymptotic meanings. Dubner [\\[3\\]](#page-8-2) proposed the strengthening that every even n > 4208 is a sum of two twin members; the 33 even numbers 6 ≤ n ≤ 4208 without such a representation form 11 triples of consecutive even numbers (OEIS [A007534](https://oeis.org/A007534) [\\[8\\]](#page-8-3)), and the triple structure is explained in Section [3.](#page-2-0) A proof of Dubner's conjecture would imply both GC and the twin prime conjecture (TPC).\n\nWe isolate the weakest statement in this family that retains the double implication.\n\nConjecture 1 (S). Every even n ≥ 6 admits a representation n = p+t with p prime and t ∈ T .\n\n<sup>∗</sup>Texas A&M University.\n\nDubner's conjecture implies (S) once the finitely many even n ≤ 4208 are checked to admit a prime + twin representation (they do; see Section [5\\)](#page-3-0), and (S) implies GC (with 4 = 2 + 2). Unlike GC, however, (S) also forces the infinitude of twin primes:\n\nTheorem 1...."
+      ],
+      "relevance": 0.7932662444125432,
+      "citationCount": 0,
+      "n": 16
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2606.07428",
+      "title": "Gaps in Multiplicative Sidon Sets II",
+      "url": "https://arxiv.org/abs/2606.07428",
+      "authors": [
+        "Wouter van Doorn",
+        "Quanyu Tang"
+      ],
+      "publicationDate": "2026-06-05",
+      "doi": "https://doi.org/10.48550/arxiv.2606.07428",
+      "provider": "valyu/valyu-arxiv",
+      "sourceType": "paper",
+      "abstract": "With $ρ= \\frac{13-\\sqrt{69}}{10} \\approx 0.47$, it was recently established that there exist multiplicative Sidon sets (sets without any non-trivial solutions to $ab = cd$) in $\\{1, 2, \\ldots, n\\}$ with maximal gap size $\\ll_{\\varepsilon} n^{ρ+ \\varepsilon}$. Here we improve upon this result and show that one can take $ρ= \\frac{10}{33} \\approx 0.303$ instead.",
+      "excerpts": [
+        "# 3. Bounding gaps via the scarcity of prime-poor intervals\n\nWe introduce the following notion that quantifies how often short intervals contain very few primes.\n\nDefinition 3.1. For a positive real number α, define λ(α) to be the smallest non-negative real such that, for all ε > 0 and all large enough n, the Lebesgue measure of the set of x ∈ [0, n] for which the interval (x, x + x <sup>α</sup>] contains fewer than 5 <sup>1</sup>/α primes, is smaller than n λ(α)+ε .\n\nWe certainly expect λ(α) to be 0 for all α > 0. Indeed, it is even conjectured that the prime number theorem holds in such intervals, whereas we only require a (sufficiently large) finite number of primes. However, it is currently only known that λ(α) = 0 holds for α > 0.52, thanks to Li [\\[11\\]](#page-5-10). Fortunately, we do not quite need λ(α) = 0 for our purposes.\n\nTheorem 3.2. If λ(α) < 3α for some α > 0, then g(n) ≪<sup>α</sup> n α.\n\nProof. Set ε := α − λ(α) <sup>3</sup> > 0, define β := 2α − ε, and assume that n is sufficiently large. With H := 2⌈n <sup>α</sup>⌉, we consider the intervals (i − 1)H, iH] for positive integers i ≤ n H . Apart from the first interval corresponding to i = 1, every other interval then either contains at least L := 5 <sup>1</sup>/α primes p with H < p ≤ n, or it contributes measure at least n <sup>α</sup> to the total measure of intervals counted in Definition [3.1,](#page-3-3) which is bounded by n λ(α)+ε ....",
+        "# 1. Introduction\n\nDefine a set A of positive integers to be a multiplicative Sidon set if the equality of products ab = cd with a, b, c, d ∈ A implies the equality of sets {a, b} = {c, d}. In other words, all products of two elements from A are essentially unique. Now, one can verify that the set of primes is a multiplicative Sidon set, and it is natural to ask if such a set can get much larger than that. Erdős [\\[5,](#page-5-0) [6\\]](#page-5-1) almost completely answered this question, by showing that there exist absolute constants c<sup>1</sup> and c<sup>2</sup> such that for all n ≥ 2 the largest possible multiplicative Sidon subset of [n] := {1, 2, . . . , n} has size between π(n) + <sup>c</sup>1<sup>n</sup> 3/4 (log n) <sup>3</sup>/<sup>2</sup> and π(n) + <sup>c</sup>2<sup>n</sup> 3/4 (log n) 3/2 , where π(n) is the number of primes in [n].\n\nSince it is conjectured that, for every ε > 0, the difference between consecutive primes p and q is smaller than p ε if p is large enough, the set of primes in [n] conjecturally gives a multiplicative Sidon set in [n] whose maximal gap between consecutive elements is ≪<sup>ε</sup> n ε . Unfortunately, proving such bounds on prime gaps is infamously intractable with current knowledge, and even under the assumption of the Riemann Hypothesis the best one can show is a gap size of ≪<sup>ε</sup> n 1/2+ε .\n\nThis lack of understanding of prime gaps prompted Sárközy [\\[13\\]](#page-5-2) to ask whether one can show the existence of a multipli"
+      ],
+      "relevance": 0.7695690247251407,
+      "citationCount": 0,
+      "n": 17
+    },
+    {
+      "id": "https://doi.org/10.48550/arxiv.2606.05224",
+      "title": "Theorem $(1+1.9)$ on the Goldbach Conjecture",
+      "url": "https://arxiv.org/abs/2606.05224",
+      "authors": [
+        "Jiamin Li",
+        "Jianya Liu"
+      ],
+      "publicationDate": "2026-06-01",
+      "doi": "https://doi.org/10.48550/arxiv.2606.05224",
+      "provider": "valyu/valyu-arxiv",
+      "sourceType": "paper",
+      "abstract": "For $1 \\leq a \\leq 2$, we say Proposition $(1+a)$ holds if every sufficiently large even integer $N$ can be written as $$N = p + rq, \\quad r \\leq q^{a-1},$$ where $r$ is either $1$ or prime, and $p,q$ are primes. Thus Proposition $(1+1)$ is essentially the binary Goldbach Conjecture, and Proposition $(1+2)$ is Chen's theorem. We prove unconditionally that Proposition $(1+1.9)$ is true. Assuming the Elliott--Halberstam Conjecture, the exponent $1.9$ can be improved to $1.4$. Analogously, Proposition $(1-a)$ is formulated for the Twin Prime Conjecture. Unconditionally, we prove Proposition $(1-1.75)$, and under the Elliott--Halberstam Conjecture, Proposition $(1-1.4)$. For six decades, a substantial theoretical divide has persisted between Propositions $(1+2)$ and $(1+1)$, and likewise between Propositions $(1-2)$ and $(1-1)$. By constructing new weighted sieves and adopting new analytic tools, this paper establishes a connecting pathway between them and achieves breakthroughs in this line of research.",
+      "excerpts": [
+        "# 1. Introduction\n\n1.1. The binary Goldbach Conjecture. The binary Goldbach Conjecture states that every even integer greater than 2 is the sum of two primes. For an even integer N > 2, let D1,1(N) denote the number of solutions to\n\n(1-2)$(1.1) N = p + q$\n\nwith primes p and q. Hardy and Littlewood [18] proposed the more precise conjecture that, as N → ∞,\n\n(1.2) \n(1-3)$D_{1,1}(N) \\sim 2C(N) \\frac{N}{\\log^2 N},$\n\nwhere\n\n(1.3) \n(1-4)$C(N) = \\prod_{p>2} \\left(1 - \\frac{1}{(p-1)^2}\\right) \\prod_{\\substack{p>2\\\\p|N}} \\frac{p-1}{p-2}.$\n\nThe factor 2C(N) is precisely the Hardy–Littlewood singular series associated with the binary Goldbach Conjecture, written here in the form customary in sieve theory.\n\nWhile (1.1) remains out of reach, one may relax one variable, say q, to an almost prime Pk, i.e., an integer with at most k prime factors, and study the equation\n\n(1-5)$(1.4) N = p + P_k.$\n\nDate: June 5, 2026.\n\nKey words and phrases. Goldbach Conjecture, Twin Prime Conjecture, Almost-prime, Weighted sieves.\n\nThus P<sup>1</sup> denotes a prime, and 4 and 6 are examples of P2. We say Proposition (1 + k) holds if (1.4) is solvable for all sufficiently large even N. The strongest result in this direction remains Chen's theorem of (1 + 2). Chen [7, 8] proved that for large even N, if D1,2(N) counts solutions to N = p + P2, then\n\n(1.5) \n(1-6)$D_{1,2}(N) \\geqslant 0.67 C(N) \\frac{N}{\\log^2 N},$\n\nwith C(N) as in (1.3). The constant 0.67 has since been improved successively to\n\n(1-7)$0.689, 0.."
+      ],
+      "relevance": 0.7079341023409581,
+      "citationCount": 0,
+      "n": 18
+    }
+  ]
+}
