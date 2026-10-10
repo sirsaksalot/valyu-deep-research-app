@@ -63,7 +63,8 @@ export const SCOPES: Record<Scope, SearchOptions> = {
   },
   web: {
     searchType: "web",
-    instructions: "",
+    instructions:
+      "Prefer journals, universities, research labs, standards bodies and regulators. Skip blogs, forums and content farms.",
   },
   preprints: {
     searchType: "proprietary",
