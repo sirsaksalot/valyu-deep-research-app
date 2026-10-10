@@ -3,13 +3,27 @@ import { buildApp } from "./app.js";
 import { MemoryStore, FirestoreStore } from "./store.js";
 import { fakePipeline, valyuPipeline } from "./pipeline.js";
 import { loadPrices } from "./search.js";
+import {
+  cloudTasksDispatch,
+  cloudTasksVerifier,
+  inProcessDispatch,
+} from "./queue.js";
 
-const app = buildApp({
+const workerDeps = {
   store:
     process.env.STORE === "firestore"
       ? new FirestoreStore()
       : new MemoryStore(),
   pipeline: process.env.PIPELINE === "valyu" ? valyuPipeline : fakePipeline,
+};
+const useCloudTasks = process.env.QUEUE === "cloudtasks";
+
+const app = buildApp({
+  ...workerDeps,
+  dispatch: useCloudTasks
+    ? cloudTasksDispatch()
+    : inProcessDispatch(workerDeps),
+  verifyWorker: useCloudTasks ? cloudTasksVerifier() : undefined,
 });
 
 if (process.env.PIPELINE === "valyu") await loadPrices();

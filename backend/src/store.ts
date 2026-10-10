@@ -1,22 +1,61 @@
-import type { Task, TaskEvent } from "./types.js";
+import type { Task, TaskSummary, TraceEvent, UserMessage } from "./types.js";
 import { EventEmitter } from "node:events";
 import { Firestore, FieldValue } from "@google-cloud/firestore";
 
 export type TaskUpdate = Partial<Omit<Task, "id" | "createdAt" | "events">>;
 
+const now = () => new Date().toISOString();
+
+const claimUpdate = (t: Task): TaskUpdate | null =>
+  t.status === "queued"
+    ? { status: "running", startedAt: now(), updatedAt: now() }
+    : null;
+
+const cancelUpdate = (t: Task): TaskUpdate | null =>
+  t.status === "queued"
+    ? { status: "cancelled", finishedAt: now(), updatedAt: now() }
+    : t.status === "running"
+      ? { status: "cancelling", updatedAt: now() }
+      : null;
+
+const SUMMARY_FIELDS = [
+  "id",
+  "prompt",
+  "status",
+  "error",
+  "createdAt",
+  "updatedAt",
+  "cost",
+] as const;
+
+const toSummary = (t: Task): TaskSummary => ({
+  id: t.id,
+  prompt: t.prompt,
+  status: t.status,
+  error: t.error,
+  createdAt: t.createdAt,
+  updatedAt: t.updatedAt,
+  cost: t.cost,
+});
+
 export interface TaskStore {
-  create(task: Task): Promise<void>;
-  get(id: string): Promise<Task | undefined>;
-  update(id: string, upd: TaskUpdate): Promise<Task>;
-  appendEvent(id: string, event: TaskEvent): Promise<void>;
-  watch(id: string, onChange: (task: Task) => void): () => void;
+  create: (task: Task) => Promise<void>;
+  get: (id: string) => Promise<Task | undefined>;
+  update: (id: string, upd: TaskUpdate) => Promise<void>;
+  claim: (id: string) => Promise<Task | undefined>;
+  requestCancel: (id: string) => Promise<Task | undefined>;
+  appendEvent: (id: string, event: TraceEvent) => Promise<void>;
+  appendMessage: (id: string, text: string) => Promise<UserMessage>;
+  list: (limit: number) => Promise<TaskSummary[]>;
+  watch: (id: string, onChange: (task: Task) => void) => () => void;
 }
 
 export class FirestoreStore implements TaskStore {
+  private db;
   private col;
   constructor() {
-    const db = new Firestore({ ignoreUndefinedProperties: true });
-    this.col = db.collection("tasks");
+    this.db = new Firestore({ ignoreUndefinedProperties: true });
+    this.col = this.db.collection("tasks");
   }
   async create(task: Task) {
     await this.col.doc(task.id).create(task); // throws
@@ -25,14 +64,50 @@ export class FirestoreStore implements TaskStore {
     const snap = await this.col.doc(id).get();
     return snap.exists ? (snap.data() as Task) : undefined;
   }
-  async update(id: string, upd: Task) {
-    const ref = this.col.doc(id);
-    await ref.update(upd);
-    const snap = await ref.get();
-    return snap.data() as Task;
+  async update(id: string, taskUpdate: TaskUpdate) {
+    await this.col.doc(id).update({ ...taskUpdate, updatedAt: now() });
   }
-  async appendEvent(id: string, event: TaskEvent) {
-    await this.col.doc(id).update({ events: FieldValue.arrayUnion(event) });
+  async claim(id: string) {
+    const ref = this.col.doc(id);
+    return this.db.runTransaction(async (tx) => {
+      const task = (await tx.get(ref)).data() as Task | undefined;
+      const upd = task && claimUpdate(task);
+      if (!task || !upd) return undefined;
+      tx.update(ref, upd);
+      return { ...task, ...upd };
+    });
+  }
+  async requestCancel(id: string) {
+    const ref = this.col.doc(id);
+    return this.db.runTransaction(async (tx) => {
+      const task = (await tx.get(ref)).data() as Task | undefined;
+      const upd = task && cancelUpdate(task);
+      if (!task || !upd) return task;
+      tx.update(ref, upd);
+      return { ...task, ...upd };
+    });
+  }
+  async appendEvent(id: string, event: TraceEvent) {
+    await this.col.doc(id).update({
+      events: FieldValue.arrayUnion(event),
+      updatedAt: now(),
+    });
+  }
+  async appendMessage(id: string, text: string) {
+    const message: UserMessage = { id: Date.now(), at: now(), text };
+    await this.col.doc(id).update({
+      messages: FieldValue.arrayUnion(message),
+      updatedAt: now(),
+    });
+    return message;
+  }
+  async list(limit: number) {
+    const snap = await this.col
+      .orderBy("updatedAt", "desc")
+      .limit(limit)
+      .select(...SUMMARY_FIELDS)
+      .get();
+    return snap.docs.map((d) => d.data() as TaskSummary);
   }
   watch(id: string, onChange: (task: Task) => void): () => void {
     return this.col.doc(id).onSnapshot(
@@ -65,17 +140,48 @@ export class MemoryStore implements TaskStore {
   async update(id: string, upd: TaskUpdate) {
     const task = this.tasks.get(id);
     if (!task) throw new Error(`task ${id} not found`);
-    const updTask = { ...task, ...upd };
-    this.tasks.set(id, updTask);
-    this.changes.emit(id, structuredClone(updTask));
-    return structuredClone(updTask);
+    Object.assign(task, upd, { updatedAt: now() });
+    this.changes.emit(id, structuredClone(task));
   }
 
-  async appendEvent(id: string, event: TaskEvent) {
+  async claim(id: string) {
+    const task = this.tasks.get(id);
+    const upd = task && claimUpdate(task);
+    if (!task || !upd) return undefined;
+    await this.update(id, upd);
+    return structuredClone(task);
+  }
+
+  async requestCancel(id: string) {
+    const task = this.tasks.get(id);
+    const upd = task && cancelUpdate(task);
+    if (upd) await this.update(id, upd);
+    return task && structuredClone(task);
+  }
+
+  async appendEvent(id: string, event: TraceEvent) {
     const task = this.tasks.get(id);
     if (!task) throw new Error(`task ${id} not found`);
     task.events.push(structuredClone(event));
+    task.updatedAt = now();
     this.changes.emit(id, structuredClone(task));
+  }
+
+  async appendMessage(id: string, text: string) {
+    const task = this.tasks.get(id);
+    if (!task) throw new Error(`task ${id} not found`);
+    const message: UserMessage = { id: Date.now(), at: now(), text };
+    task.messages.push(message);
+    task.updatedAt = now();
+    this.changes.emit(id, structuredClone(task));
+    return message;
+  }
+
+  async list(limit: number) {
+    return [...this.tasks.values()]
+      .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
+      .slice(0, limit)
+      .map(toSummary);
   }
 
   watch(id: string, onChange: (task: Task) => void): () => void {
