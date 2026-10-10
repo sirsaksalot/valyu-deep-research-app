@@ -1,0 +1,7 @@
+.gcloudignore
+#!include:.gitignore
+node_modules/
+dist/
+.env*
+!.env.example
+scripts/
