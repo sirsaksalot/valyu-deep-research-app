@@ -59,13 +59,11 @@ export const SCOPES: Record<Scope, SearchOptions> = {
     searchType: "proprietary",
     includedSources: ["valyu/valyu-pubmed"],
     includeAbstracts: true,
-    instructions:
-      "Prefer primary research, systematic reviews and meta-analyses. Skip editorials, letters and opinion pieces.",
+    instructions: "",
   },
   web: {
     searchType: "web",
-    instructions:
-      "Prefer journals, universities, research labs, standards bodies and regulators. Skip blogs, forums and content farms.",
+    instructions: "",
   },
   preprints: {
     searchType: "proprietary",
@@ -74,14 +72,12 @@ export const SCOPES: Record<Scope, SearchOptions> = {
       "valyu/valyu-biorxiv",
       "valyu/valyu-medrxiv",
     ],
-    instructions:
-      "Prefer papers that state concrete results, methods or proofs. Skip announcements and short abstracts without results.",
+    instructions: "",
   },
   trials: {
     searchType: "proprietary",
     includedSources: ["valyu/valyu-clinical-trials"],
-    instructions:
-      "Prefer completed or active interventional trials with reported outcomes, later phases first.",
+    instructions: "",
   },
 };
 
@@ -101,7 +97,7 @@ export async function searchScope(
 
   const res = await valyu.search(query, {
     ...SCOPES[scope],
-    instructions: instructions ?? SCOPES[scope].instructions,
+    instructions: instructions || SCOPES[scope].instructions || undefined,
     startDate,
     endDate,
     maxNumResults: RESULTS_PER_SEARCH,

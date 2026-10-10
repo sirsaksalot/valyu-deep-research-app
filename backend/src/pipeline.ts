@@ -58,10 +58,10 @@ export type Pool = Map<string, Source>;
 
 const MODEL_PLAN = process.env.MODEL_PLAN ?? "gemini-3.8-flash";
 const MODEL_WRITE = process.env.MODEL_WRITE ?? "gemini-3.8-flash";
-const MAX_ROUNDS = 3;
-const SEARCH_BUDGET = 0.1;
-const LLM_BUDGET = 0.2;
-const DEADLINE_MS = 5 * 60_000;
+const MAX_ROUNDS = 4;
+const SEARCH_BUDGET = 1.0;
+const LLM_BUDGET = 1.0;
+const DEADLINE_MS = 10 * 60_000;
 
 const worstCase = (calls: SearchCall[]) =>
   calls.reduce(
