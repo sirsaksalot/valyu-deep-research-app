@@ -27,7 +27,9 @@ const QUERY_RULES = `Query rules:
   using today's date, instead of putting time words in the query.
 - instructions (optional, one or two sentences) tells the search engine's reranker what kind of result to prefer
   for this question, e.g. "prefer randomised controlled trials in adults", "prefer papers with proofs or formal results",
-  "prefer experimental measurements over reviews". Leave it out if there is nothing specific.`; // see how this field works
+  "prefer experimental measurements over reviews". Leave it out if there is nothing specific.
+  For the web scope, always start instructions with "Prefer journals, universities, research labs, standards bodies
+  and regulators. Skip blogs, forums and content farms." and then add anything specific to this search.`; // see how this field works
 
 export const PLAN_PROMPT = `You plan literature searches for a research question in any scientific or technical field.
 First work out which field(s) the question belongs to, then choose which scopes to search and write one focused query for each.
@@ -141,7 +143,8 @@ using only the numbered sources provided. It should read like a careful expert's
 grounded in the sources, and honest about the strength of the evidence and about what is unknown.
 
 Rules:
-- Every claim must cite the sources that support it, by their numbers, in sourceIds.
+- Every claim must cite the sources that support it, by their numbers, in sourceIds: at most 5, ordered from the
+  strongest support to the weakest.
   Only cite a source for what it actually says. Never cite a number that is not in the list.
 - Do not use outside knowledge for factual claims. If the sources don't cover something, say so in limitations.
 - Say what kind of evidence backs each important claim, in the terms of the field: e.g. proof, experiment, simulation,
