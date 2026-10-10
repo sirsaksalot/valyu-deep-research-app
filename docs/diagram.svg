@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 -40 1565 938" width="1565" height="938">
+<defs><marker id="h0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#495057" stroke-width="1.5"/></marker></defs>
+<rect x="-30" y="-40" width="1565" height="938" fill="#ffffff"/>
+<rect x="0" y="90" width="260" height="56" rx="8" fill="#e7f5ff" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="340" y="90" width="280" height="56" rx="8" fill="#e7f5ff" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="0" y="230" width="260" height="64" rx="8" fill="#f1f3f5" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="340" y="230" width="280" height="64" rx="8" fill="#f1f3f5" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="0" y="380" width="620" height="156.82314252476658" rx="8" fill="#fff9db" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="0" y="660" width="620" height="64" rx="8" fill="#edf2ff" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="760" y="90" width="260" height="56" rx="8" fill="#e7f5ff" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="1100" y="90" width="280" height="56" rx="8" fill="#e7f5ff" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="760" y="230" width="620" height="64" rx="8" fill="#f1f3f5" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="760" y="380" width="290" height="200" rx="8" fill="#fff9db" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="1090" y="380" width="290" height="200" rx="8" fill="#fff9db" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="760" y="660" width="620" height="64" rx="8" fill="#edf2ff" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<rect x="760" y="790" width="620" height="78" rx="8" fill="#fff4e6" stroke="#495057" stroke-width="1" opacity="1.0"/>
+<polyline points="690,-10 690,860" fill="none" stroke="#ced4da" stroke-width="1" stroke-linejoin="round" opacity="1.0" stroke-dasharray="8 6"/>
+<polyline points="130,146 130,230" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" stroke-dasharray="8 6" marker-end="url(#h0)"/>
+<polyline points="130,294 130.2,380" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="479.88,380 480.0,294" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="480,230 480,146" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="310,660 310.0592316228309,542.3231425247666" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="890.2,230 890.0,146" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="1239.88,230 1240.0,146" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="1235,380 1234.92,294" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="905,380 905.08,294" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" stroke-dasharray="8 6" marker-end="url(#h0)"/>
+<polyline points="905.08,660 905.0,580" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="1234.92,660 1235.0,580" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<polyline points="1070,790 1070,724" fill="none" stroke="#495057" stroke-width="1.5" stroke-linejoin="round" opacity="1.0" marker-end="url(#h0)"/>
+<text x="0" y="23.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">Before</text>
+<text x="760" y="23.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">After</text>
+<text x="130.0" y="123.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">Sidebar (task list)</text>
+<text x="480.0" y="113.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">Task view</text>
+<text x="480.0" y="132.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">worklog/ report</text>
+<text x="130.0" y="257.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">GET /tasks</text>
+<text x="130.0" y="276.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">latest 50</text>
+<text x="480.0" y="257.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">GET /tasks/:id/events (SSE)</text>
+<text x="480.0" y="276.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">onSnapshot on one task doc</text>
+<text x="5" y="399.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">Firestore · tasks (one doc per task)</text>
+<text x="5" y="418.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• id, prompt, status, error</text>
+<text x="5" y="437.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• cost: search / llm / total</text>
+<text x="5" y="455.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• createdAt, startedAt,finishedAt</text>
+<text x="5" y="474.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• events[]: every plan / search / reflect / write step</text>
+<text x="5" y="493.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• messages[]: steering</text>
+<text x="5" y="512.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• report, sources</text>
+<text x="310.0" y="687.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">POST /internal/run/:id (Cloud Tasks)</text>
+<text x="310.0" y="706.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">plan → search → reflect → write</text>
+<text x="890.0" y="123.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">Sidebar (task list)</text>
+<text x="1240.0" y="113.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">Task view</text>
+<text x="1240.0" y="132.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">worklog, report</text>
+<text x="1070.0" y="257.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">GET /stream (SSE), one per browser</text>
+<text x="1070.0" y="276.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">onSnapshot on the events of my tasks</text>
+<text x="765" y="399.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">Firestore : Tasks (status only)</text>
+<text x="765" y="418.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• id, prompt, status</text>
+<text x="765" y="437.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• cost, timestamps</text>
+<text x="765" y="455.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• parentId: task it resumes</text>
+<text x="1095" y="399.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">Firestore: Events</text>
+<text x="1095" y="418.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">one doc per event</text>
+<text x="1095" y="437.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• taskId, userId, seq</text>
+<text x="1095" y="455.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• type,data, at</text>
+<text x="1095" y="474.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="start" opacity="1.0" xml:space="preserve">• status changes (new)</text>
+<text x="1070.0" y="687.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">POST /internal/run/:id (Cloud Tasks)</text>
+<text x="1070.0" y="706.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">status → tasks, each step → events</text>
+<text x="1070.0" y="824.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">Timed out at 15 min? start a new task with parentId = the old task</text>
+<text x="1070.0" y="843.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212529" text-anchor="middle" opacity="1.0" xml:space="preserve">it reads the parent&#x27;s last notes and sources from events and continues</text>
+<text x="140" y="178.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">poll every 4s</text>
+<text x="140" y="330.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">query</text>
+<text x="489.88" y="330.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">every change (onSnapshot)</text>
+<text x="490" y="178.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">whole task doc</text>
+<text x="337.8372748096273" y="629.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">one request with lifetime (15-30m)</text>
+<text x="900.2" y="178.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">status events</text>
+<text x="1249.88" y="178.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">events of the open task</text>
+<text x="1245" y="330.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">new events (onSnapshot)</text>
+<text x="915" y="330.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">initial list (once)</text>
+<text x="915.08" y="612.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">status</text>
+<text x="1244.92" y="612.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">each step</text>
+<text x="1084.8558253946562" y="762.4" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#495057" text-anchor="start" opacity="1.0" xml:space="preserve">resume</text>
+</svg>
